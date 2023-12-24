@@ -64,7 +64,7 @@ Pratik joined the Oxford Robotics Institute (ORI) in May 2023 as a Robotics Soft
 
 Dulhan is a DPhil student in the Autonomous Intelligent Machines and Systems (AIMS) CDT. At PNPL, his work focuses on leveraging deep learning to find efficient representations of brain signals for downstream tasks (e.g. phoneme recognition from heard speech brain data). Prior to joining PNPL, he worked on multi-agent RL and reasoning with graph neural networks at the University of Cambridge. Before this, he completed his BSc in Computer Science at the University of Southampton, where he researched computer vision systems for visual navigation. He has worked on large language models at Speechmatics and developing assembly-level machine learning kernels for new hardware at Arm.
 
-[Twitter](https://twitter.com/dulhanjay) [LinkedIn](https://www.linkedin.com/in/dulhan/)
+[Twitter](https://twitter.com/dulhanjay) [Personal Website](https://dulhanjayalath.com/) [LinkedIn](https://www.linkedin.com/in/dulhan/)
 
 ### Daniella Ye
 > PhD Student
