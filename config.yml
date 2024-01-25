@@ -62,7 +62,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Welcome to PNPL 🍍
-    subtitle: "(a.k.a. the Parker Jones Neural Processing Lab)"
+    # subtitle: "(a.k.a. the Parker Jones Neural Processing Lab)"
     # imageUrl: "<img location>"
     # imageWidth: 120
     # imageHeight: 120

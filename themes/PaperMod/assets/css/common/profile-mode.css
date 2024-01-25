@@ -21,6 +21,10 @@
     border-radius: 50%;
 }
 
+.profile .basic {
+    border-radius: 0%;
+}
+
 .buttons {
     flex-wrap: wrap;
     max-width: 400px;

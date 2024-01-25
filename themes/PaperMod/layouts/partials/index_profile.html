@@ -30,9 +30,20 @@
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         {{- end }}
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <div>
+            <h1 style="float: left; vertical-align: true; position: relative; top: 50%; transform: translateY(50%);">{{ .title | default site.Title | markdownify }}&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+            <p style="text-align: left; float: left; vertical-align: true;">
+                <b>P</b>arker Jones<br>
+                <b>N</b>eural<br>
+                <b>P</b>rocessing<br>
+                <b>L</b>ab
+            </p>
+        </div>
+
         <span>{{ .subtitle | markdownify }}</span>
+
         {{- partial "social_icons.html" -}}
+
 
         {{- with .buttons }}
         <div class="buttons">
@@ -52,7 +63,19 @@
             </a>
             {{- end }}
         </div>
+        
         <p style="text-align: justify;">{{ site.Params.profileMode.desc }}</p>
+
+        <div>       
+            <a href="https://eng.ox.ac.uk/">
+                <img style="float: left; position: relative; top: 50%; margin: 20px; vertical-align: true; height: 100%;" class="basic" src="https://eng.ox.ac.uk/images/logo.svg" alt="" height="100">
+            </a>
+            
+            <a href="https://ori.ox.ac.uk/">
+                <img style="float: left; margin: 20px; vertical-align: true;" class="basic" src="https://ori.ox.ac.uk/media/4104/ori-logo-closecrop-80pxh-2x.png" alt="" height="100">
+            </a>
+        </div>
+
         {{- end }}
     </div>
     {{- end}}
