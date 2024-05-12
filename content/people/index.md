@@ -36,9 +36,6 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-| {{< figure src="oiwi.png" width="64px" title="Oiwi" link="#oiwi-parker-jones">}} | {{< figure src="pratik.jpg" width="64px" title="Pratik" link="#pratik-somaiya">}} | {{< figure src="dulhan.png" width="64px" title="Dulhan" link="#dulhan-jayalath">}} | {{< figure src="daniella.png" width="64px" title="Daniella" link="#daniella-ye">}} | {{< figure src="birtan.webp" width="64px" title="Birtan" link="#birtan-demirel">}} | {{< figure src="hayley.png" width="64px" title="Hayley" link="#hayley-millard">}} | {{< figure src="daniel.png" width="64px" title="Daniel" link="#daniel-grant">}} | {{< figure src="brian.jpg" width="64px" title="Brian" link="#brian-liu" >}} |
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-
 ### Oiwi Parker Jones
 > Principal Investigator
 
@@ -66,8 +63,18 @@ Dulhan is a DPhil student in the Autonomous Intelligent Machines and Systems (AI
 
 [Twitter](https://twitter.com/dulhanjay) [Personal Website](https://dulhanjayalath.com/) [LinkedIn](https://www.linkedin.com/in/dulhan/)
 
-### Daniella Ye
+### Gilad D. Landau
 > PhD Student
+
+{{< figure src="gilad.png" alt="Gilad" width="250px" >}}
+
+Gilad is a D.Phil student currently working on decoding semantic content from the brain with AI. He is motivated by the prospect of merging brains with AI to deepen our understanding of both. His academic background is in Philosophy of Cognitive Science, where he applied a multi-disciplinary approach to explore how brains process representations. Prior to joining PNPL he worked as an applied AI researcher, developing industry-first AI systems in several domains and modalities.
+
+### Luisa Kurth
+> PhD Student
+
+### Daniella Ye
+> PhD Student (co-supervised with Phil Blunsom)
 
 {{< figure src="daniella.png" alt="Daniella" width="250px" >}}
 
@@ -82,20 +89,6 @@ Birtan completed his MSc degree in Psychology, Neuroscience and Human Sciences a
 
 [Twitter](https://twitter.com/BirtanDemirel) [LinkedIn](https://www.linkedin.com/in/birtan-demirel-98b891a9/)
 
-### Hayley Millard
-> Research Assistant
-
-{{< figure src="hayley.png" alt="Hayley" width="250px" >}}
-
-### Daniel Grant
-> Visiting Student
-
-{{< figure src="daniel.png" alt="Daniel" width="250px" >}}
-
-Daniel is pursuing a dual major in computer science and maths at Bowdoin College (currently studying abroad at St. Annes College, Oxford University for the duration of the 2023-24 academic year). He is fascinated by the intersection of mathematics and computer systems, especially in robotics, aerospace and machine learning.
-
-[LinkedIn](https://www.linkedin.com/in/daniel-grant-a85683221/)
-
 ### Brian Liu
 > Visiting Student
 
@@ -104,3 +97,24 @@ Daniel is pursuing a dual major in computer science and maths at Bowdoin College
 Brian is a junior at Bowdoin College studying abroad in Oxford, majoring in mathematics and computer science and minoring in music. He is interested in intersecting mathematical deductions of music, human processes and decisions, and the natural world with programming, as well as leveraging technology to benefit the common good and uncover truths in capital systems.
 
 [LinkedIn](https://www.linkedin.com/in/brianliu03/)
+
+### Charlotte Gerhaher
+> Master's Student
+
+{{< figure src="charlotte.png" alt="Charlotte" width="250px" >}}
+
+Charlotte is an MSc student in Advanced Computer Science at the University of Oxford, with a background in bioinformatics and veterinary medicine. She joined PNPL for her master's thesis to work on brain data synthesis using deep generative models, addressing the scarcity of data augmentation options for brain data. Before embarking on her current studies, she completed a BSc in Bioinformatics at the Technical University of Munich and Ludwig Maximilian University, where she focused on reducing bias in state-of-the-art machine learning models for the classification of thoracic diseases in chest X-rays.
+
+### Jeremy Ridge
+> Master's Student
+
+{{< figure src="jeremy.jpeg" alt="Jeremy" width="250px" >}}
+
+Jeremy is a current MSc student in Advanced Computer Science at the University of Oxford, associated with Wolfson College. He is completing his master's dissertation with the PNPL group focusing on deep learning applications for non-invasive neuroimaging data. Before coming to Oxford, he completed his bachelors at the University of Pennsylvania, double majoring in Cognitive Science and Computer Science.
+
+### Pablo Soëtard
+> Master's Student
+
+{{< figure src="pablo.png" alt="Pablo" width="250px" >}}
+
+Pablo is an MSc student in Mathematics and Foundations of Computer Science at the University of Oxford. At PNPL, his work focuses on studying the mathematical structures that encode speech on the brain, through the use of Selective State Space Models. Prior to joining PNPL, he worked on RL for quantum communication protocols at the National Research Council of Spain, and in the Neurocomputing group at UAM on neural pattern generators for robotics control. During his undergraduate years he studied a BEng in Computer Science and Engineering and another BEng in Telecommunications Engineering at UAM. He has worked on information retrieval systems, computer vision and MLOps for the past 4 summers at Google as a Research Software Engineer.
