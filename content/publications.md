@@ -36,4 +36,10 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-Watch this space 👀
+### The Brain's Bitter Lesson: Scaling Speech Decoding With Self-Supervised Learning
+
+_Dulhan Jayalath, Gilad Landau, Brendan Shillingford, Mark Woolrich, Oiwi Parker Jones_
+
+> 6th June 2024 | arXiv preprint arXiv:2406.04328 | [arXiv Link](https://arxiv.org/abs/2406.04328)
+
+TL;DR: We propose neuroscience-inspired self-supervised objectives that enable learning from heterogeneous and unlabelled neural recordings, unlocking the potential for training speech decoding models with significantly more existing data.

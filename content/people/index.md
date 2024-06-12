@@ -73,21 +73,34 @@ Gilad is a D.Phil student currently working on decoding semantic content from th
 ### Luisa Kurth
 > PhD Student
 
-### Daniella Ye
+{{< figure src="luisa.jpg" alt="Luisa" width="250px" >}}
+
+My motivation is to help improving people’s lives through AI. Currently, I am mostly interested in the challenges of advancing machine learning for medical image analysis. The CDT in AIMS offers the perfect platform for this journey and I’m excited to connect with anyone sharing my interest. I hold a Bachelor's degree in Psychology from the University of Mannheim and a Master's degree from the University of Oxford's Internet Institute. During my time at Oxford, I participated in cutting-edge research on the societal and ethical aspects of AI. This experience fueled my fascination for machine learning, leading me to pursue a second Master's degree at the University of Tübingen, where I focused on the foundations of deep learning, large language models and explainable AI.  Along the way, I've conducted brain research at the Max-Planck-Institute and worked as a policy researcher at the OECD. Outside of research, I enjoy reading, socializing with friends, and visiting art galleries.
+
+### Yonatan Gideoni
+> PhD Student (co-supervised with Yarin Gal)
+
+{{< figure src="yonatan.jpeg" alt="Yonatan" width="250px" >}}
+
+Yonatan is a DPhil student in the AIMS CDT. At PNPL he works on improving model scaling by finding natural representations that allow spanning output modalities (EEG, MEG, etc.). He previously completed a master’s at Cambridge and holds a bachelor’s in physics from the Hebrew University of Jerusalem. He experienced the whole spectrum from academia to industry, doing machine learning for quantum computing at Qruise and Forschungszentrum Jülich and developing maps for autonomous vehicles at Mobileye. He's passionate about education, happily mentoring MSc students and having been a teacher at the Israeli Arts and Sciences Academy. Before that he mentored robotics teams, reaching international competitions several times. He is funded by the AIMS CDT and a Rhodes scholarship.
+
+[Twitter](https://x.com/YGideoni) [Personal Website](https://yonatangideoni.github.io/) [LinkedIn](https://www.linkedin.com/in/yonatan-gideoni/)
+
+<!-- ### Daniella Ye
 > PhD Student (co-supervised with Phil Blunsom)
 
 {{< figure src="daniella.png" alt="Daniella" width="250px" >}}
 
-[Twitter](https://twitter.com/DaniellaYezi) [LinkedIn](https://www.linkedin.com/in/daniella-zihuiwen-ye-b7aa46180/)
+[Twitter](https://twitter.com/DaniellaYezi) [LinkedIn](https://www.linkedin.com/in/daniella-zihuiwen-ye-b7aa46180/) -->
 
-### Birtan Demirel
+<!-- ### Birtan Demirel
 > Research Assistant
 
 {{< figure src="birtan.webp" alt="Birtan" width="250px" >}}
 
 Birtan completed his MSc degree in Psychology, Neuroscience and Human Sciences at the University of Pavia, Italy. He also trained at the Neurology Department, University Medical Center Goettingen, Germany, where he used real-time magnetic resonance imaging (MRI) for his Master's research project. He is carrying out research for his DPhil at the University of Oxford with Prof. Kate Watkins in the Department of Experimental Psychology, and Prof. Charlotte Stagg at the Wellcome Centre for Integrative Neuroimaging and MRC BNDU, funded by a grant from the Dominic Barker Trust. Birtan also teaches neurophysiology at undergraduate level as part of a Graduate Development Scholarship from St. Anne's College, Oxford. Birtan is interested in speech-motor impairments and how acute stress physiology, cognitive functions and emotions affect speech production. He uses transcranial alternating current stimulation (tACS) alongside advanced neuroimaging techniques of MRI, functional MRI, and magnetoencephalography (MEG). The results of his studies should inform further neuroimaging studies in stuttering and provide possible therapeutic interventions for people who want to work on their speech fluency.
 
-[Twitter](https://twitter.com/BirtanDemirel) [LinkedIn](https://www.linkedin.com/in/birtan-demirel-98b891a9/)
+[Twitter](https://twitter.com/BirtanDemirel) [LinkedIn](https://www.linkedin.com/in/birtan-demirel-98b891a9/) -->
 
 ### Brian Liu
 > Visiting Student
