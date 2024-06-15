@@ -40,6 +40,8 @@ editPost:
 
 _Dulhan Jayalath, Gilad Landau, Brendan Shillingford, Mark Woolrich, Oiwi Parker Jones_
 
-> 6th June 2024 | arXiv preprint arXiv:2406.04328 | [arXiv Link](https://arxiv.org/abs/2406.04328)
+6th June 2024 | [arXiv link](https://arxiv.org/abs/2406.04328) | arXiv preprint arXiv:2406.04328
+
+{{< figure src="bbl_teaser.png" alt="Teaser" width="400px" >}}
 
 TL;DR: We propose neuroscience-inspired self-supervised objectives that enable learning from heterogeneous and unlabelled neural recordings, unlocking the potential for training speech decoding models with significantly more existing data.
