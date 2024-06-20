@@ -78,13 +78,13 @@ Gilad is a D.Phil student currently working on decoding semantic content from th
 My motivation is to help improving people’s lives through AI. Currently, I am mostly interested in the challenges of advancing machine learning for medical image analysis. The CDT in AIMS offers the perfect platform for this journey and I’m excited to connect with anyone sharing my interest. I hold a Bachelor's degree in Psychology from the University of Mannheim and a Master's degree from the University of Oxford's Internet Institute. During my time at Oxford, I participated in cutting-edge research on the societal and ethical aspects of AI. This experience fueled my fascination for machine learning, leading me to pursue a second Master's degree at the University of Tübingen, where I focused on the foundations of deep learning, large language models and explainable AI.  Along the way, I've conducted brain research at the Max-Planck-Institute and worked as a policy researcher at the OECD. Outside of research, I enjoy reading, socializing with friends, and visiting art galleries.
 
 ### Yonatan Gideoni
-> PhD Student (co-supervised with Yarin Gal)
+> PhD Student (co-supervised with Yarin Gal and Michael Bronstein)
 
 {{< figure src="yonatan.jpeg" alt="Yonatan" width="250px" >}}
 
 Yonatan is a DPhil student in the AIMS CDT. At PNPL he works on improving model scaling by finding natural representations that span output modalities (EEG, MEG, etc.). He completed a master’s at Cambridge and holds a bachelor’s in physics from the Hebrew University of Jerusalem. He worked along the spectrum from academia to industry, doing machine learning for quantum computing at Qruise and Forschungszentrum Jülich and developing maps for autonomous vehicles at Mobileye. He's passionate about education, happily mentoring MSc students and having been a teacher at the Israeli Arts and Sciences Academy. Before that he mentored robotics teams, reaching international competitions several times. He is funded by the AIMS CDT and a Rhodes scholarship.
 
-[Twitter](https://x.com/YGideoni) [Personal Website](https://yonatangideoni.github.io/) [LinkedIn](https://www.linkedin.com/in/yonatan-gideoni/)
+[Twitter](https://x.com/YGideoni) [Personal Website](http://yonatan.gideoni.com/) [LinkedIn](https://www.linkedin.com/in/yonatan-gideoni/)
 
 <!-- ### Daniella Ye
 > PhD Student (co-supervised with Phil Blunsom)
