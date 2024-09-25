@@ -9,6 +9,8 @@ Oiwi leads the Parker Jones Neural Processing Lab (PNPL) at the University of Ox
 
 [Twitter](https://twitter.com/oiwi3000) [Oxford Robotics Institute](https://ori.ox.ac.uk/people/oiwi-parker-jones/) [Jesus College](https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/dr-oiwi-parker-jones/) [Google Scholar](https://scholar.google.com/citations?hl=en&user=zXJwucQAAAAJ&view_op=list_works&sortby=pubdate)
 
+<div style="clear: both;"></div>
+
 ### Pratik Somaiya
 > Software Engineer
 
@@ -20,6 +22,8 @@ Pratik joined the Oxford Robotics Institute (ORI) in May 2023 as a Robotics Soft
 
 [Twitter](https://twitter.com/I_m_PRS) [Personal Website](https://pratiksomaiya.in/)
 
+<div style="clear: both;"></div>
+
 ### Francesco Mantegna
 > Postdoctoral Research Fellow
 
@@ -29,6 +33,7 @@ Pratik joined the Oxford Robotics Institute (ORI) in May 2023 as a Robotics Soft
 Francesco joined PNPL as a Postdoc in 2024 after receiving his PhD in Cognitive Psychology and Neuroscience from NYU under the supervision of David Poeppel. His interests include Brain Computer Interfaces (BCIs), Neurotechnology, and Speech Neuroprosthetics.
 </p>
 
+<div style="clear: both;"></div>
 
 ### Mats van Es
 > Research Associate
@@ -39,6 +44,7 @@ Francesco joined PNPL as a Postdoc in 2024 after receiving his PhD in Cognitive 
 Mats helps to support a broad range of electrophysiological research in PNPL. He is a Postdoc at Oxford Centre for Human Brain Activity (OHBA) where he works with Mark Woolrich to develop analysis methods for electrophysiology (e.g. EEG, SQUID-MEG, OPM-MEG). Mats received his PhD from the Donders Institute (Radboud University, Netherlands) with Dr. Jan-Mathijs Schoffelen, with work on how neural oscillations affect neural processing and behaviour.
 </p>
 
+<div style="clear: both;"></div>
 
 ### Ryan Timms
 > Research Associate
@@ -49,6 +55,7 @@ Mats helps to support a broad range of electrophysiological research in PNPL. He
 Ryan helps to support MEG research that involves source reconstruction. He received his DPhil from the Oxford Centre for Human Brain Activity (OHBA) under the supervision of Mark Woolrich working on unsupervised time-series machine learning techniques for MEG source reconstruction. From there, he went on to manage the Optically Pumped Magnetometer (OPM) Laboratory at UCL with Gareth Barnes and work as a Data Scientist for the BBC.
 </p>
 
+<div style="clear: both;"></div>
 
 ### Dulhan Jayalath
 > DPhil/PhD Student
@@ -61,6 +68,8 @@ Dulhan is a DPhil student in the Autonomous Intelligent Machines and Systems (AI
 
 [Twitter](https://twitter.com/dulhanjay) [Personal Website](https://dulhanjayalath.com/) [LinkedIn](https://www.linkedin.com/in/dulhan/)
 
+<div style="clear: both;"></div>
+
 ### Gilad D. Landau
 > DPhil/PhD Student
 
@@ -69,6 +78,8 @@ Dulhan is a DPhil student in the Autonomous Intelligent Machines and Systems (AI
 <p style="text-align:justify;text-justify: inter-word;">
 Gilad is a D.Phil student currently working on decoding semantic content from the brain with AI. He is motivated by the prospect of merging brains with AI to deepen our understanding of both. His academic background is in Philosophy of Cognitive Science, where he applied a multi-disciplinary approach to explore how brains process representations. Prior to joining PNPL he worked as an applied AI researcher, developing industry-first AI systems in several domains and modalities.
 </p>
+
+<div style="clear: both;"></div>
 
 ### Miran Özdogan
 > DPhil/PhD Student
@@ -79,6 +90,8 @@ Gilad is a D.Phil student currently working on decoding semantic content from th
 Miran's work in PNPL has recently focused on the role of sequence models, such as state space models (e.g. S4 and Mamba) for BCIs. He is also working to establish new benchmarks and standards for neural decoding, in order to quantify and accelerate progress in the field.
 </p>
 
+<div style="clear: both;"></div>
+
 ### Luisa Kurth
 > DPhil/PhD Student
 
@@ -87,6 +100,8 @@ Miran's work in PNPL has recently focused on the role of sequence models, such a
 <p style="text-align:justify;text-justify: inter-word;">
 My motivation is to help improving people’s lives through AI. Currently, I am mostly interested in the challenges of advancing machine learning for medical image analysis. The CDT in AIMS offers the perfect platform for this journey and I’m excited to connect with anyone sharing my interest. I hold a Bachelor's degree in Psychology from the University of Mannheim and a Master's degree from the University of Oxford's Internet Institute. During my time at Oxford, I participated in cutting-edge research on the societal and ethical aspects of AI. This experience fueled my fascination for machine learning, leading me to pursue a second Master's degree at the University of Tübingen, where I focused on the foundations of deep learning, large language models and explainable AI.  Along the way, I've conducted brain research at the Max-Planck-Institute and worked as a policy researcher at the OECD. Outside of research, I enjoy reading, socializing with friends, and visiting art galleries.
 </p>
+
+<div style="clear: both;"></div>
 
 ### Yonatan Gideoni
 > DPhil/PhD Mini-Project (co-supervised with Yarin Gal and Michael Bronstein)
@@ -98,6 +113,8 @@ Yonatan is a DPhil student in the AIMS CDT. At PNPL he works on improving model 
 </p>
 
 [Twitter](https://x.com/YGideoni) [Personal Website](http://yonatan.gideoni.com/) [LinkedIn](https://www.linkedin.com/in/yonatan-gideoni/)
+
+<div style="clear: both;"></div>
 
 <!-- ### Daniella Ye
 > DPhil/PhD Student (co-supervised with Phil Blunsom)
@@ -126,6 +143,8 @@ Brian is a junior at Bowdoin College studying abroad in Oxford, majoring in math
 
 [LinkedIn](https://www.linkedin.com/in/brianliu03/)
 
+<div style="clear: both;"></div>
+
 ### Charlotte Gerhaher
 > Master's Student
 
@@ -134,6 +153,8 @@ Brian is a junior at Bowdoin College studying abroad in Oxford, majoring in math
 <p style="text-align:justify;text-justify: inter-word;">
 Charlotte is an MSc student in Advanced Computer Science at the University of Oxford, with a background in bioinformatics and veterinary medicine. She joined PNPL for her master's thesis to work on brain data synthesis using deep generative models, addressing the scarcity of data augmentation options for brain data. Before embarking on her current studies, she completed a BSc in Bioinformatics at the Technical University of Munich and Ludwig Maximilian University, where she focused on reducing bias in state-of-the-art machine learning models for the classification of thoracic diseases in chest X-rays.
 </p>
+
+<div style="clear: both;"></div>
 
 ### Jeremy Ridge
 > Master's Student
@@ -144,6 +165,8 @@ Charlotte is an MSc student in Advanced Computer Science at the University of Ox
 Jeremy is a current MSc student in Advanced Computer Science at the University of Oxford, associated with Wolfson College. He is completing his master's dissertation with the PNPL group focusing on deep learning applications for non-invasive neuroimaging data. Before coming to Oxford, he completed his bachelors at the University of Pennsylvania, double majoring in Cognitive Science and Computer Science.
 </p>
 
+<div style="clear: both;"></div>
+
 ### Pablo Soëtard
 > Master's Student
 
@@ -152,3 +175,6 @@ Jeremy is a current MSc student in Advanced Computer Science at the University o
 <p style="text-align:justify;text-justify: inter-word;">
 Pablo is an MSc student in Mathematics and Foundations of Computer Science at the University of Oxford. At PNPL, his work focuses on studying the mathematical structures that encode speech on the brain, through the use of Selective State Space Models. Prior to joining PNPL, he worked on RL for quantum communication protocols at the National Research Council of Spain, and in the Neurocomputing group at UAM on neural pattern generators for robotics control. During his undergraduate years he studied a BEng in Computer Science and Engineering and another BEng in Telecommunications Engineering at UAM. He has worked on information retrieval systems, computer vision and MLOps for the past 4 summers at Google as a Research Software Engineer.
 </p>
+
+<div style="clear: both;"></div>
+
