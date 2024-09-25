@@ -57,6 +57,7 @@ Ryan helps to support MEG research that involves source reconstruction. He recei
 
 <div style="clear: both;"></div>
 
+
 ### Dulhan Jayalath
 > DPhil/PhD Student
 
@@ -132,19 +133,6 @@ Birtan completed his MSc degree in Psychology, Neuroscience and Human Sciences a
 
 [Twitter](https://twitter.com/BirtanDemirel) [LinkedIn](https://www.linkedin.com/in/birtan-demirel-98b891a9/) -->
 
-### Brian Liu
-> Visiting Student
-
-<img src="brian.jpg" style="float: left;margin-right:25px" alt="Brian" width="200"> 
-
-<p style="text-align:justify;text-justify: inter-word;">
-Brian is a junior at Bowdoin College studying abroad in Oxford, majoring in mathematics and computer science and minoring in music. He is interested in intersecting mathematical deductions of music, human processes and decisions, and the natural world with programming, as well as leveraging technology to benefit the common good and uncover truths in capital systems.
-</p>
-
-[LinkedIn](https://www.linkedin.com/in/brianliu03/)
-
-<div style="clear: both;"></div>
-
 ### Charlotte Gerhaher
 > Master's Student
 
@@ -175,6 +163,19 @@ Jeremy is a current MSc student in Advanced Computer Science at the University o
 <p style="text-align:justify;text-justify: inter-word;">
 Pablo is an MSc student in Mathematics and Foundations of Computer Science at the University of Oxford. At PNPL, his work focuses on studying the mathematical structures that encode speech on the brain, through the use of Selective State Space Models. Prior to joining PNPL, he worked on RL for quantum communication protocols at the National Research Council of Spain, and in the Neurocomputing group at UAM on neural pattern generators for robotics control. During his undergraduate years he studied a BEng in Computer Science and Engineering and another BEng in Telecommunications Engineering at UAM. He has worked on information retrieval systems, computer vision and MLOps for the past 4 summers at Google as a Research Software Engineer.
 </p>
+
+<div style="clear: both;"></div>
+
+### Brian Liu
+> Visiting Student
+
+<img src="brian.jpg" style="float: left;margin-right:25px" alt="Brian" width="200"> 
+
+<p style="text-align:justify;text-justify: inter-word;">
+Brian is a junior at Bowdoin College studying abroad in Oxford, majoring in mathematics and computer science and minoring in music. He is interested in intersecting mathematical deductions of music, human processes and decisions, and the natural world with programming, as well as leveraging technology to benefit the common good and uncover truths in capital systems.
+</p>
+
+[LinkedIn](https://www.linkedin.com/in/brianliu03/)
 
 <div style="clear: both;"></div>
 
