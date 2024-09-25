@@ -166,7 +166,34 @@ Pablo is an MSc student in Mathematics and Foundations of Computer Science at th
 
 <div style="clear: both;"></div>
 
-### Brian Liu
+### Emma Harris
+> Master's Student
+
+<img src="emma.jpeg" style="float: left;margin-right:25px" alt="Emma" width="200"> 
+
+Emma is an MSc student in Clinical and Therapeutic Neuroscience. Her work in PNPL has helped to refine experimental protocol around large-scale within-subject data acquisiton.
+
+<div style="clear: both;"></div>
+
+### Oğuzhan Keskin
+> Research Assistant
+
+<img src="oğuzhan.png" style="float: left;margin-right:25px" alt="Oğuzhan" width="200"> 
+
+Oğuzhan's interests include diffusion models and other methods from computer vision. He has an M.Phil. in Computer Science from Cambridge University and software engineer experience in industry.
+
+<div style="clear: both;"></div>
+
+## Alumni
+
+* Botos Csaba
+* Daniella Ye
+* Birtan Demirel
+* Hayley Millard
+* Brian Liu
+
+
+<!-- ### Brian Liu
 > Visiting Student
 
 <img src="brian.jpg" style="float: left;margin-right:25px" alt="Brian" width="200"> 
@@ -177,5 +204,4 @@ Brian is a junior at Bowdoin College studying abroad in Oxford, majoring in math
 
 [LinkedIn](https://www.linkedin.com/in/brianliu03/)
 
-<div style="clear: both;"></div>
-
+<div style="clear: both;"></div> -->
