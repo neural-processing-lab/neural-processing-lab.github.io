@@ -29,13 +29,22 @@ Pratik joined the Oxford Robotics Institute (ORI) in May 2023 as a Robotics Soft
 Francesco joined PNPL as a Postdoc in 2024 after receiving his PhD in Cognitive Psychology and Neuroscience from NYU under the supervision of David Poeppel. His interests include Brain Computer Interfaces (BCIs), Neurotechnology, and Speech Neuroprosthetics.
 </p>
 
+### Mats van Es
+> Research Associate
+
+<img src="mats.png" style="float: left;margin-right:25px" alt="Francesco" width="200"> 
+
+<p style="text-align:justify;text-justify: inter-word;">
+Mats helps to support a broad range of electrophysiological research in PNPL. He is a Postdoc at Oxford Centre for Human Brain Activity (OHBA) where he works with Mark Woolrich to develop analysis methods for electrophysiology (e.g. EEG, SQUID-MEG, OPM-MEG). Mats received his PhD from the Donders Institute (Radboud University, Netherlands) with Dr. Jan-Mathijs Schoffelen, with work on how neural oscillations affect neural processing and behaviour.
+</p>
+
 ### Ryan Timms
 > Research Associate
 
 <img src="ryan.png" style="float: left;margin-right:25px" alt="Ryan" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
-Ryan helps to support MEG research that involves source reconstruction. He received his DPhil from the Oxford Centre for Human Brain Activity (OHBA) under the supervision of Mark Woolrich, working on unsupervised time-series machine learning techniques for MEG source reconstruction. From there, he went on to manage the Optically Pumped Magnetometer Laboratory at UCL with Gareth Barnes and work as a Data Scientist for the BBC.
+Ryan helps to support MEG research that involves source reconstruction. He received his DPhil from the Oxford Centre for Human Brain Activity (OHBA) under the supervision of Mark Woolrich working on unsupervised time-series machine learning techniques for MEG source reconstruction. From there, he went on to manage the Optically Pumped Magnetometer (OPM) Laboratory at UCL with Gareth Barnes and work as a Data Scientist for the BBC.
 </p>
 
 ### Dulhan Jayalath
