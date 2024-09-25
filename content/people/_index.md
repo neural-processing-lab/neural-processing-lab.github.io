@@ -12,7 +12,7 @@ Oiwi leads the Parker Jones Neural Processing Lab (PNPL) at the University of Ox
 ### Pratik Somaiya
 > Software Engineer
 
-<img src="pratik.jpg" style="float: left;margin-right:25px" alt="Oiwi" width="200"> 
+<img src="pratik.jpg" style="float: left;margin-right:25px" alt="Pratik" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 Pratik joined the Oxford Robotics Institute (ORI) in May 2023 as a Robotics Software Engineer. Before that, he pursued an MSc by Research in Robotics at the Lincoln Centre for Autonomous Systems Research (L-CAS), University of Lincoln, UK. Prior to his Master's, he was a Research Assistant at L-CAS working in agri-robotics. Pratik also spent several years in the industry before joining L-CAS. During that time, he worked on developing robots for warehouse material handling and consumer robots such as vacuum cleaning robots.
@@ -20,10 +20,30 @@ Pratik joined the Oxford Robotics Institute (ORI) in May 2023 as a Robotics Soft
 
 [Twitter](https://twitter.com/I_m_PRS) [Personal Website](https://pratiksomaiya.in/)
 
-### Dulhan Jayalath
-> PhD Student
+### Francesco Mantegna
+> Postdoctoral Research Fellow
 
-<img src="dulhan.png" style="float: left;margin-right:25px" alt="Oiwi" width="200"> 
+<img src="francesco.png" style="float: left;margin-right:25px" alt="Francesco" width="200"> 
+
+<p style="text-align:justify;text-justify: inter-word;">
+Francesco joined PNPL as a postdoc in 2024 after receiving his PhD in Cognitive Psychology and Neuroscience from NYU under the supervision of David Poeppel. His interests include Brain Computer Interfaces (BCIs), Neurotechnology, and Speech Neuroprosthetics.
+</p>
+
+<!-- [Twitter](https://twitter.com/I_m_PRS) [Personal Website](https://pratiksomaiya.in/) -->
+
+### Ryan Timms
+> Research Associate
+
+<img src="ryan.png" style="float: left;margin-right:25px" alt="Ryan" width="200"> 
+
+<p style="text-align:justify;text-justify: inter-word;">
+Ryan helps to support MEG research that involves source reconstruction.
+</p>
+
+### Dulhan Jayalath
+> DPhil/PhD Student
+
+<img src="dulhan.png" style="float: left;margin-right:25px" alt="Dulhan" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 Dulhan is a DPhil student in the Autonomous Intelligent Machines and Systems (AIMS) CDT. At PNPL, his work focuses on leveraging deep learning to find efficient representations of brain signals for downstream tasks (e.g. phoneme recognition from heard speech brain data). Prior to joining PNPL, he worked on multi-agent RL and reasoning with graph neural networks at the University of Cambridge. Before this, he completed his BSc in Computer Science at the University of Southampton, where he researched computer vision systems for visual navigation. He has worked on large language models at Speechmatics and developing assembly-level machine learning kernels for new hardware at Arm.
@@ -32,27 +52,36 @@ Dulhan is a DPhil student in the Autonomous Intelligent Machines and Systems (AI
 [Twitter](https://twitter.com/dulhanjay) [Personal Website](https://dulhanjayalath.com/) [LinkedIn](https://www.linkedin.com/in/dulhan/)
 
 ### Gilad D. Landau
-> PhD Student
+> DPhil/PhD Student
 
-<img src="gilad.png" style="float: left;margin-right:25px" alt="Oiwi" width="180"> 
+<img src="gilad.png" style="float: left;margin-right:25px" alt="Gilad" width="180"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 Gilad is a D.Phil student currently working on decoding semantic content from the brain with AI. He is motivated by the prospect of merging brains with AI to deepen our understanding of both. His academic background is in Philosophy of Cognitive Science, where he applied a multi-disciplinary approach to explore how brains process representations. Prior to joining PNPL he worked as an applied AI researcher, developing industry-first AI systems in several domains and modalities.
 </p>
 
-### Luisa Kurth
-> PhD Student
+### Miran Özdogan
+> DPhil/PhD Student
 
-<img src="luisa.jpg" style="float: left;margin-right:25px" alt="Oiwi" width="200"> 
+<img src="miran.jpeg" style="float: left;margin-right:25px" alt="Miran" width="200"> 
+
+<p style="text-align:justify;text-justify: inter-word;">
+Miran's work in PNPL has recently focused on the role of sequence models, such as state space models (e.g. S4 and Mamba) for BCIs. He is also working to establish new benchmarks and standards for neural decoding, in order to quantify and accelerate progress in the field.
+</p>
+
+### Luisa Kurth
+> DPhil/PhD Student
+
+<img src="luisa.jpg" style="float: left;margin-right:25px" alt="Luisa" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 My motivation is to help improving people’s lives through AI. Currently, I am mostly interested in the challenges of advancing machine learning for medical image analysis. The CDT in AIMS offers the perfect platform for this journey and I’m excited to connect with anyone sharing my interest. I hold a Bachelor's degree in Psychology from the University of Mannheim and a Master's degree from the University of Oxford's Internet Institute. During my time at Oxford, I participated in cutting-edge research on the societal and ethical aspects of AI. This experience fueled my fascination for machine learning, leading me to pursue a second Master's degree at the University of Tübingen, where I focused on the foundations of deep learning, large language models and explainable AI.  Along the way, I've conducted brain research at the Max-Planck-Institute and worked as a policy researcher at the OECD. Outside of research, I enjoy reading, socializing with friends, and visiting art galleries.
 </p>
 
 ### Yonatan Gideoni
-> PhD Student (co-supervised with Yarin Gal and Michael Bronstein)
+> DPhil/PhD Mini-Project (co-supervised with Yarin Gal and Michael Bronstein)
 
-<img src="yonatan.jpeg" style="float: left;margin-right:25px" alt="Oiwi" width="200"> 
+<img src="yonatan.jpeg" style="float: left;margin-right:25px" alt="Yonatan" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 Yonatan is a DPhil student in the AIMS CDT. At PNPL he works on improving model scaling by finding natural representations that span output modalities (EEG, MEG, etc.). He completed a master’s at Cambridge and holds a bachelor’s in physics from the Hebrew University of Jerusalem. He worked along the spectrum from academia to industry, doing machine learning for quantum computing at Qruise and Forschungszentrum Jülich and developing maps for autonomous vehicles at Mobileye. He's passionate about education, happily mentoring MSc students and having been a teacher at the Israeli Arts and Sciences Academy. Before that he mentored robotics teams, reaching international competitions several times. He is funded by the AIMS CDT and a Rhodes scholarship.
@@ -61,7 +90,7 @@ Yonatan is a DPhil student in the AIMS CDT. At PNPL he works on improving model 
 [Twitter](https://x.com/YGideoni) [Personal Website](http://yonatan.gideoni.com/) [LinkedIn](https://www.linkedin.com/in/yonatan-gideoni/)
 
 <!-- ### Daniella Ye
-> PhD Student (co-supervised with Phil Blunsom)
+> DPhil/PhD Student (co-supervised with Phil Blunsom)
 
 {{< figure src="daniella.png" alt="Daniella" width="250px" >}}
 
@@ -79,7 +108,7 @@ Birtan completed his MSc degree in Psychology, Neuroscience and Human Sciences a
 ### Brian Liu
 > Visiting Student
 
-<img src="brian.jpg" style="float: left;margin-right:25px" alt="Oiwi" width="200"> 
+<img src="brian.jpg" style="float: left;margin-right:25px" alt="Brian" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 Brian is a junior at Bowdoin College studying abroad in Oxford, majoring in mathematics and computer science and minoring in music. He is interested in intersecting mathematical deductions of music, human processes and decisions, and the natural world with programming, as well as leveraging technology to benefit the common good and uncover truths in capital systems.
@@ -90,7 +119,7 @@ Brian is a junior at Bowdoin College studying abroad in Oxford, majoring in math
 ### Charlotte Gerhaher
 > Master's Student
 
-<img src="charlotte.png" style="float: left;margin-right:25px" alt="Oiwi" width="200"> 
+<img src="charlotte.png" style="float: left;margin-right:25px" alt="Charlotte" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 Charlotte is an MSc student in Advanced Computer Science at the University of Oxford, with a background in bioinformatics and veterinary medicine. She joined PNPL for her master's thesis to work on brain data synthesis using deep generative models, addressing the scarcity of data augmentation options for brain data. Before embarking on her current studies, she completed a BSc in Bioinformatics at the Technical University of Munich and Ludwig Maximilian University, where she focused on reducing bias in state-of-the-art machine learning models for the classification of thoracic diseases in chest X-rays.
@@ -99,7 +128,7 @@ Charlotte is an MSc student in Advanced Computer Science at the University of Ox
 ### Jeremy Ridge
 > Master's Student
 
-<img src="jeremy.jpeg" style="float: left;margin-right:25px" alt="Oiwi" width="150"> 
+<img src="jeremy.jpeg" style="float: left;margin-right:25px" alt="Jeremy" width="150"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 Jeremy is a current MSc student in Advanced Computer Science at the University of Oxford, associated with Wolfson College. He is completing his master's dissertation with the PNPL group focusing on deep learning applications for non-invasive neuroimaging data. Before coming to Oxford, he completed his bachelors at the University of Pennsylvania, double majoring in Cognitive Science and Computer Science.
@@ -108,7 +137,7 @@ Jeremy is a current MSc student in Advanced Computer Science at the University o
 ### Pablo Soëtard
 > Master's Student
 
-<img src="pablo.png" style="float: left;margin-right:25px" alt="Oiwi" width="200"> 
+<img src="pablo.png" style="float: left;margin-right:25px" alt="Pablo" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 Pablo is an MSc student in Mathematics and Foundations of Computer Science at the University of Oxford. At PNPL, his work focuses on studying the mathematical structures that encode speech on the brain, through the use of Selective State Space Models. Prior to joining PNPL, he worked on RL for quantum communication protocols at the National Research Council of Spain, and in the Neurocomputing group at UAM on neural pattern generators for robotics control. During his undergraduate years he studied a BEng in Computer Science and Engineering and another BEng in Telecommunications Engineering at UAM. He has worked on information retrieval systems, computer vision and MLOps for the past 4 summers at Google as a Research Software Engineer.
