@@ -178,7 +178,7 @@ Emma is an MSc student in Clinical and Therapeutic Neuroscience. Her work in PNP
 ### Oğuzhan Keskin
 > Research Assistant
 
-<img src="oğuzhan.png" style="float: left;margin-right:25px" alt="Oğuzhan" width="200"> 
+<img src="oguzhan.png" style="float: left;margin-right:25px" alt="Oğuzhan" width="200"> 
 
 Oğuzhan's interests include diffusion models and other methods from computer vision. He has an M.Phil. in Computer Science from Cambridge University and software engineer experience in industry.
 
