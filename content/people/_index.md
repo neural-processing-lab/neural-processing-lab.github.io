@@ -29,14 +29,16 @@ Pratik joined the Oxford Robotics Institute (ORI) in May 2023 as a Robotics Soft
 Francesco joined PNPL as a Postdoc in 2024 after receiving his PhD in Cognitive Psychology and Neuroscience from NYU under the supervision of David Poeppel. His interests include Brain Computer Interfaces (BCIs), Neurotechnology, and Speech Neuroprosthetics.
 </p>
 
+
 ### Mats van Es
 > Research Associate
 
-<img src="mats.png" style="float: left;margin-right:25px" alt="Francesco" width="200"> 
+<img src="mats.png" style="float: left;margin-right:25px" alt="Mats" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 Mats helps to support a broad range of electrophysiological research in PNPL. He is a Postdoc at Oxford Centre for Human Brain Activity (OHBA) where he works with Mark Woolrich to develop analysis methods for electrophysiology (e.g. EEG, SQUID-MEG, OPM-MEG). Mats received his PhD from the Donders Institute (Radboud University, Netherlands) with Dr. Jan-Mathijs Schoffelen, with work on how neural oscillations affect neural processing and behaviour.
 </p>
+
 
 ### Ryan Timms
 > Research Associate
@@ -46,6 +48,7 @@ Mats helps to support a broad range of electrophysiological research in PNPL. He
 <p style="text-align:justify;text-justify: inter-word;">
 Ryan helps to support MEG research that involves source reconstruction. He received his DPhil from the Oxford Centre for Human Brain Activity (OHBA) under the supervision of Mark Woolrich working on unsupervised time-series machine learning techniques for MEG source reconstruction. From there, he went on to manage the Optically Pumped Magnetometer (OPM) Laboratory at UCL with Gareth Barnes and work as a Data Scientist for the BBC.
 </p>
+
 
 ### Dulhan Jayalath
 > DPhil/PhD Student
@@ -70,7 +73,7 @@ Gilad is a D.Phil student currently working on decoding semantic content from th
 ### Miran Özdogan
 > DPhil/PhD Student
 
-<img src="miran.jpeg" style="float: left;margin-right:25px" alt="Miran" width="200"> 
+<img src="miran.png" style="float: left;margin-right:25px" alt="Miran" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
 Miran's work in PNPL has recently focused on the role of sequence models, such as state space models (e.g. S4 and Mamba) for BCIs. He is also working to establish new benchmarks and standards for neural decoding, in order to quantify and accelerate progress in the field.
