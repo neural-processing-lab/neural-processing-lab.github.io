@@ -26,10 +26,8 @@ Pratik joined the Oxford Robotics Institute (ORI) in May 2023 as a Robotics Soft
 <img src="francesco.png" style="float: left;margin-right:25px" alt="Francesco" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
-Francesco joined PNPL as a postdoc in 2024 after receiving his PhD in Cognitive Psychology and Neuroscience from NYU under the supervision of David Poeppel. His interests include Brain Computer Interfaces (BCIs), Neurotechnology, and Speech Neuroprosthetics.
+Francesco joined PNPL as a Postdoc in 2024 after receiving his PhD in Cognitive Psychology and Neuroscience from NYU under the supervision of David Poeppel. His interests include Brain Computer Interfaces (BCIs), Neurotechnology, and Speech Neuroprosthetics.
 </p>
-
-<!-- [Twitter](https://twitter.com/I_m_PRS) [Personal Website](https://pratiksomaiya.in/) -->
 
 ### Ryan Timms
 > Research Associate
@@ -37,7 +35,7 @@ Francesco joined PNPL as a postdoc in 2024 after receiving his PhD in Cognitive 
 <img src="ryan.png" style="float: left;margin-right:25px" alt="Ryan" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
-Ryan helps to support MEG research that involves source reconstruction.
+Ryan helps to support MEG research that involves source reconstruction. He received his DPhil from the Oxford Centre for Human Brain Activity (OHBA) under the supervision of Mark Woolrich, working on unsupervised time-series machine learning techniques for MEG source reconstruction. From there, he went on to manage the Optically Pumped Magnetometer Laboratory at UCL with Gareth Barnes and work as a Data Scientist for the BBC.
 </p>
 
 ### Dulhan Jayalath
