@@ -41,7 +41,7 @@ Francesco joined PNPL as a Postdoc in 2024 after receiving his PhD in Cognitive 
 <img src="mats.png" style="float: left;margin-right:25px" alt="Mats" width="200"> 
 
 <p style="text-align:justify;text-justify: inter-word;">
-Mats helps to support a broad range of electrophysiological research in PNPL. He is a Postdoc at Oxford Centre for Human Brain Activity (OHBA) where he works with Mark Woolrich to develop analysis methods for electrophysiology (e.g. EEG, SQUID-MEG, OPM-MEG). Mats received his PhD from the Donders Institute (Radboud University, Netherlands) with Dr. Jan-Mathijs Schoffelen, with work on how neural oscillations affect neural processing and behaviour.
+Mats helps to support a broad range of electrophysiological research in PNPL. He is a Postdoc at Oxford Centre for Human Brain Activity (OHBA) where he works with Mark Woolrich to develop analysis methods for electrophysiology (e.g. EEG, SQUID-MEG, OPM-MEG) and studying temporal dynamics in functional brain networks. Mats received his PhD from the Donders Institute (Radboud University, Netherlands) with Jan-Mathijs Schoffelen, with work on how neural oscillations affect neural processing and behaviour.
 </p>
 
 <div style="clear: both;"></div>
