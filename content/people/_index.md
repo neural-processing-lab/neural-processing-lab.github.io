@@ -104,19 +104,6 @@ My motivation is to help improving people’s lives through AI. Currently, I am 
 
 <div style="clear: both;"></div>
 
-### Yonatan Gideoni
-> DPhil/PhD Mini-Project (co-supervised with Yarin Gal and Michael Bronstein)
-
-<img src="yonatan.jpeg" style="float: left;margin-right:25px" alt="Yonatan" width="200"> 
-
-<p style="text-align:justify;text-justify: inter-word;">
-Yonatan is a DPhil student in the AIMS CDT. At PNPL he works on improving model scaling by finding natural representations that span output modalities (EEG, MEG, etc.). He completed a master’s at Cambridge and holds a bachelor’s in physics from the Hebrew University of Jerusalem. He worked along the spectrum from academia to industry, doing machine learning for quantum computing at Qruise and Forschungszentrum Jülich and developing maps for autonomous vehicles at Mobileye. He's passionate about education, happily mentoring MSc students and having been a teacher at the Israeli Arts and Sciences Academy. Before that he mentored robotics teams, reaching international competitions several times. He is funded by the AIMS CDT and a Rhodes scholarship.
-</p>
-
-[Twitter](https://x.com/YGideoni) [Personal Website](http://yonatan.gideoni.com/) [LinkedIn](https://www.linkedin.com/in/yonatan-gideoni/)
-
-<div style="clear: both;"></div>
-
 <!-- ### Daniella Ye
 > DPhil/PhD Student (co-supervised with Phil Blunsom)
 
@@ -191,6 +178,7 @@ Oğuzhan's interests include diffusion models and other methods from computer vi
 * Birtan Demirel
 * Hayley Millard
 * Brian Liu
+* Yonatan Gideoni
 
 
 <!-- ### Brian Liu
