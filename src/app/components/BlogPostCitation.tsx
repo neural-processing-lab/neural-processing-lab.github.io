@@ -9,6 +9,9 @@ interface BlogPostCitationProps {
 export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
   const [copied, setCopied] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const baseButtonColor = '#4a4a4a';
+  const hoverButtonColor = '#333333';
+  const successButtonColor = '#2e7d32';
 
   useEffect(() => {
     setMounted(true);
@@ -29,9 +32,9 @@ export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
       marginTop: '3rem',
       marginBottom: '2rem',
       padding: '2rem',
-      background: 'linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%)',
+      background: 'linear-gradient(135deg, #f5f5f5 0%, #ebebeb 100%)',
       borderRadius: '12px',
-      border: '2px solid #e3f2fd',
+      border: '2px solid #e0e0e0',
       position: 'relative'
     }}>
       {/* Decorative element */}
@@ -41,7 +44,7 @@ export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
         left: '2rem',
         right: '2rem',
         height: '3px',
-        background: 'linear-gradient(90deg, #1976d2, #42a5f5, #1976d2)',
+        background: 'linear-gradient(90deg, #bdbdbd, #9e9e9e, #bdbdbd)',
         borderRadius: '2px'
       }} />
       
@@ -57,7 +60,7 @@ export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
             fontSize: '18px',
             fontWeight: 600,
             marginBottom: '0.5rem',
-            color: '#1565c0',
+            color: '#444',
             display: 'flex',
             alignItems: 'center',
             gap: '0.5rem'
@@ -70,7 +73,7 @@ export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
           
           <p style={{
             fontSize: '14px',
-            color: '#1976d2',
+            color: '#666',
             margin: 0,
             lineHeight: 1.4
           }}>
@@ -82,7 +85,7 @@ export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
           <button
             onClick={copyBibTeX}
             style={{
-              background: copied ? '#4CAF50' : '#1976d2',
+              background: copied ? successButtonColor : baseButtonColor,
               color: 'white',
               border: 'none',
               padding: '0.75rem 1.5rem',
@@ -92,17 +95,19 @@ export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
               cursor: 'pointer',
               transition: 'all 0.2s ease',
               minWidth: '120px',
-              boxShadow: copied ? '0 2px 8px rgba(76, 175, 80, 0.3)' : '0 2px 8px rgba(25, 118, 210, 0.3)'
+              boxShadow: copied
+                ? '0 2px 8px rgba(46, 125, 50, 0.25)'
+                : '0 2px 8px rgba(0, 0, 0, 0.15)'
             }}
             onMouseEnter={(e) => {
               if (!copied) {
-                e.currentTarget.style.background = '#1565c0';
+                e.currentTarget.style.background = hoverButtonColor;
                 e.currentTarget.style.transform = 'translateY(-1px)';
               }
             }}
             onMouseLeave={(e) => {
               if (!copied) {
-                e.currentTarget.style.background = '#1976d2';
+                e.currentTarget.style.background = baseButtonColor;
                 e.currentTarget.style.transform = 'translateY(0)';
               }
             }}
@@ -111,6 +116,25 @@ export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
           </button>
         )}
       </div>
+
+      <pre
+        style={{
+          marginTop: '1.5rem',
+          background: '#f0f0f0',
+          color: '#2a2a2a',
+          padding: '1.5rem',
+          borderRadius: '8px',
+          overflowX: 'auto',
+          fontFamily: 'var(--font-geist-mono, Menlo, Consolas, monospace)',
+          fontSize: '13px',
+          lineHeight: 1.6,
+          whiteSpace: 'pre-wrap',
+          wordBreak: 'break-word',
+          border: '1px solid #dddddd'
+        }}
+      >
+        {bibtex}
+      </pre>
     </section>
   );
 }

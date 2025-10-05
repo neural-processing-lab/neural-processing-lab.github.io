@@ -85,6 +85,18 @@ function addHeadingIds(htmlContent: string, tocItems: TocItem[]): string {
   return updatedContent;
 }
 
+function wrapTablesWithScroll(htmlContent: string): string {
+  const tableOpenTagRegex = /<table(\b[^>]*)?>/gi;
+  const tableCloseTagRegex = /<\/table>/gi;
+
+  return htmlContent
+    .replace(tableOpenTagRegex, (_match, attrs = '') => {
+      const normalizedAttrs = attrs || '';
+      return `<div class="table-scroll" role="group" aria-label="Scrollable table"><table${normalizedAttrs}>`;
+    })
+    .replace(tableCloseTagRegex, '</table></div>');
+}
+
 export async function getAllPosts(): Promise<BlogPost[]> {
   try {
     if (!fs.existsSync(postsDirectory)) {
@@ -138,6 +150,9 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
     
     // Add IDs to headings in HTML
     htmlContent = addHeadingIds(htmlContent, tocItems);
+
+    // Wrap tables to enable horizontal scrolling UX
+    htmlContent = wrapTablesWithScroll(htmlContent);
     
     // Process LaTeX math manually for now (simple approach)
     htmlContent = htmlContent.replace(/\$\$([^$]+)\$\$/g, '<div class="math-display">\\[$1\\]</div>');
