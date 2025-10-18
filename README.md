@@ -1,6 +1,6 @@
 # PNPL Website
 
-The official website for the Parker Jones Neural Processing Lab at Oxford Robotics Institute.
+The official PNPL website at the University of Oxford, part of InfoEng in the Department of Engineering Science and the Oxford Robotics Institute.
 
 ## Tech Stack
 
