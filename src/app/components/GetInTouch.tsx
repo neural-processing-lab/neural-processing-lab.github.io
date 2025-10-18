@@ -101,6 +101,23 @@ export default function GetInTouch() {
             </a>
             .
           </p>
+          
+          <p>
+            For <strong>internships</strong>, please apply through the,{' '}
+            <a
+              href="https://ori.ox.ac.uk/join-us/internship"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: '#0a0a0a',
+                textDecoration: 'underline',
+                fontWeight: 500
+              }}
+            >
+              ORI
+            </a>
+            .
+          </p>
         </div>
 
       </div>
