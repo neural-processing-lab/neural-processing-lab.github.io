@@ -13,6 +13,7 @@ interface TeamMember {
   twitter?: string;
   interests: string[];
   image?: string;
+  sunglassesImage?: string;
   featured?: boolean;
 }
 
@@ -25,14 +26,16 @@ const teamMembers: TeamMember[] = [
     website: "https://ori.ox.ac.uk/people/oiwi-parker-jones/",
     twitter: "@oiwi3000",
     interests: ["Neural Decoding", "Brain-Computer Interfaces", "Deep Learning", "Computational Neuroscience"],
-    image: "/team/oiwi.png"
+    image: "/team/oiwi.png",
+    sunglassesImage: "/team/oiwi-sunglasses.jpeg"
   },
   {
     name: "Francesco Mantegna",
     title: "Postdoctoral Research Fellow",
     bio: "Francesco joined PNPL as a Postdoc in 2024 after receiving his PhD in Cognitive Psychology and Neuroscience from NYU under the supervision of David Poeppel. His interests include Brain Computer Interfaces (BCIs), Neurotechnology, and Speech Neuroprosthetics.",
     interests: ["Brain Computer Interfaces", "Neurotechnology", "Speech Neuroprosthetics", "Cognitive Psychology"],
-    image: "/team/francesco.png"
+    image: "/team/francesco.png",
+    sunglassesImage: "/team/francesco-sunglasses.jpeg"
   },
   {
     name: "Pratik Somaiya",
@@ -41,7 +44,8 @@ const teamMembers: TeamMember[] = [
     website: "https://pratiksomaiya.in",
     twitter: "@I_m_PRS",
     interests: ["Robotics Software Engineering", "Agri-robotics", "Warehouse Automation", "Consumer Robotics"],
-    image: "/team/pratik.jpg"
+    image: "/team/pratik.jpg",
+    sunglassesImage: "/team/pratik-sunglasses.jpeg"
   },
   {
     name: "Dulhan Jayalath",
@@ -50,49 +54,88 @@ const teamMembers: TeamMember[] = [
     website: "https://dulhanjayalath.com",
     twitter: "@dulhanjay",
     interests: ["Deep Learning", "Brain Signal Processing", "Multi-agent RL", "Computer Vision"],
-    image: "/team/dulhan.png"
+    image: "/team/dulhan.png",
+    sunglassesImage: "/team/dulhan-sunglasses.jpeg"
   },
   {
     name: "Gilad D. Landau",
     title: "DPhil/PhD Student",
     bio: "Gilad is a D.Phil student currently working on decoding semantic content from the brain with AI. He is motivated by the prospect of merging brains with AI to deepen our understanding of both. His academic background is in Philosophy of Cognitive Science, where he applied a multi-disciplinary approach to explore how brains process representations. Prior to joining PNPL he worked as an applied AI researcher, developing industry-first AI systems in several domains and modalities.",
     interests: ["Semantic Decoding", "Philosophy of Cognitive Science", "Applied AI", "Neural Representations"],
-    image: "/team/gilad.png"
+    image: "/team/gilad.png",
+    sunglassesImage: "/team/gilad-sunglasses.jpeg"
   },
   {
     name: "Luisa Kurth",
     title: "DPhil/PhD Student",
     bio: "My motivation is to help improving people's lives through AI. Currently, I am mostly interested in the challenges of advancing machine learning for medical image analysis. The CDT in AIMS offers the perfect platform for this journey and I'm excited to connect with anyone sharing my interest. I hold a Bachelor's degree in Psychology from the University of Mannheim and a Master's degree from the University of Oxford's Internet Institute. During my time at Oxford, I participated in cutting-edge research on the societal and ethical aspects of AI. This experience fueled my fascination for machine learning, leading me to pursue a second Master's degree at the University of Tübingen, where I focused on the foundations of deep learning, large language models and explainable AI. Along the way, I've conducted brain research at the Max-Planck-Institute and worked as a policy researcher at the OECD. Outside of research, I enjoy reading, socializing with friends, and visiting art galleries.",
     interests: ["Medical Image Analysis", "Deep Learning", "Explainable AI", "AI Ethics"],
-    image: "/team/luisa.jpg"
+    image: "/team/luisa.jpg",
+    sunglassesImage: "/team/luisa-sunglasses.jpeg"
   },
   {
     name: "Miran Özdogan",
     title: "DPhil/PhD Student",
     bio: "Miran's work in PNPL has recently focused on the role of sequence models, such as state space models (e.g. S4 and Mamba) for BCIs. He is also working to establish new benchmarks and standards for neural decoding, in order to quantify and accelerate progress in the field.",
     interests: ["State Space Models", "Brain Computer Interfaces", "Neural Decoding", "Benchmarking"],
-    image: "/team/miran.png"
+    image: "/team/miran.png",
+    sunglassesImage: "/team/miran-sunglasses.jpeg"
   },
   {
     name: "John Kwon",
     title: "DPhil/PhD Student",
     bio: "John is a DPhil student as part of the EPSRC Centre for Doctoral Training in Autonomous Intelligent Machines and Systems. He joined Michaelmas Term 2024.",
     interests: ["LLMs", "Scaling laws"],
-    image: "/team/john.jpeg"
+    image: "/team/john.jpeg",
+    sunglassesImage: "/team/john-sunglasses.jpeg"
   },
   {
     name: "SungJun Cho",
     title: "DPhil/PhD Student",
     bio: "SungJun is a Neuroscience DPhil student, co-supervised with Mark Woolrich at OHBA/OxCIN/Psychiatry. He joined Michaelmas Term 2024.",
     interests: ["Probabilistic dynamic models/DyNeMo/DyNeSte", "Foundation models", "Tokenisation"],
-    image: "/team/sungjun.jpg"
+    image: "/team/sungjun.jpg",
+    sunglassesImage: "/team/sungjun-sunglasses.jpeg"
   },
   {
     name: "Gereon Elvers",
     title: "Visiting Master's Student",
     bio: "Gereon is a Master's student from TU Munich. After initially joining PNPL remotely, he is currently visiting the lab in-person for six months. Besides working on the LibriBrain competition, he is working on the first practical applications of non-invasive speech decoding.",
     interests: ["Word Detection", "PNPL Competition"],
-    image: "/team/gereon.jpeg"
+    image: "/team/gereon.jpeg",
+    sunglassesImage: "/team/gereon-sunglasses.jpeg"
+  },
+  {
+    name: "Mariya Hendriksen",
+    title: "Visiting Research Fellow",
+    bio: "Mariya is a Visiting Research Fellow co-supervised with Phil Torr, who joined in Michaelmas Term 2025. Her research focuses on multimodal learning, leveraging external audio, text, and images to improve neural decoding.",
+    interests: ["Multimodal Learning", "Neural Decoding"],
+    image: "/team/mariya.jpg",
+    sunglassesImage: "/team/mariya-sunglasses.jpg"
+  },
+  {
+    name: "Benjamin Ballyk",
+    title: "DPhil/PhD Student",
+    bio: "Benjamin is a DPhil student in the Autonomous Intelligent Machines and Systems (AIMS) CDT. He joined Michaelmas Term 2025.",
+    interests: ["Flow Matching", "Applied Mathematics"],
+    image: "/team/benjamin.jpeg",
+    sunglassesImage: "/team/benjamin-sunglasses.jpg"
+  },
+  {
+    name: "Tasha Kim",
+    title: "DPhil/PhD Student",
+    bio: "Tasha J. Kim is a DPhil student jointly supervised by Dr. Oiwi Parker Jones and Prof. Perla Maiolino. Her research explores the intersection of brain function and robotic reasoning, focusing on neuro-symbolic AI systems that interpret neural and behavioral signals to guide robot manipulation and decision-making. She aims to develop robots that serve as collaborative and augmentative partners to humans. Before joining PNPL, Tasha completed her M.S. from Stanford University and B.Sc. from Brown University, and worked for Google and the National Institute of Standards and Technology (NIST).",
+    interests: ["Neuro-symbolic AI", "Robotic Reasoning", "Brain-Computer Interfaces"],
+    image: "/team/tasha.jpeg",
+    sunglassesImage: "/team/tasha-sunglasses.jpg"
+  },
+  {
+    name: "Alex Fung",
+    title: "DPhil/PhD Student",
+    bio: "Alex Fung is a DPhil student in Neurosurgery, co-supervised with Alex Green. He started his DPhil in 2024 and joined PNPL in 2025. His research focuses on the clinical application of neural decoding for minimally conscious patients.",
+    interests: ["Neural Decoding", "Minimally Conscious Patients"],
+    image: "/team/alex.jpeg",
+    sunglassesImage: "/team/alex-sunglasses.jpg"
   }
 ];
 
@@ -127,16 +170,7 @@ export default function Team() {
     return bio.substring(0, maxLength).trim() + '...';
   };
 
-  const getSunglassesImage = (imagePath?: string): string | null => {
-    if (!imagePath) return null;
-    const lastSlashIndex = imagePath.lastIndexOf('/')
-    const directory = lastSlashIndex !== -1 ? imagePath.substring(0, lastSlashIndex) : ''
-    const filename = lastSlashIndex !== -1 ? imagePath.substring(lastSlashIndex + 1) : imagePath
-    const dotIndex = filename.lastIndexOf('.')
-    const base = dotIndex !== -1 ? filename.substring(0, dotIndex) : filename
-    const sunglasses = `${directory}/${base}-sunglasses.jpeg`
-    return sunglasses
-  };
+  
 
   useEffect(() => {
     const layoutMasonry = () => {
@@ -490,9 +524,9 @@ export default function Team() {
                           transition: 'opacity 0.25s ease-in-out'
                         }}
                       />
-                      {getSunglassesImage(member.image) && (
+                      {member.sunglassesImage && (
                         <Image
-                          src={withBasePath(getSunglassesImage(member.image)!)}
+                          src={withBasePath(member.sunglassesImage)}
                           alt={`${member.name} wearing sunglasses`}
                           fill
                           style={{
