@@ -26,7 +26,7 @@ const teamMembers: TeamMember[] = [
     college website: "https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/dr-oiwi-parker-jones/",
     ori website: "https://ori.ox.ac.uk/people/oiwi-parker-jones/",
     twitter: "@oiwi3000",
-    interests: ["Deep Learning", "Neural Decoding", "Brain-Computer Interfaces", "Clinical Neuroscience", "Inner Speech", "Speech Recognition", "NLP", "Robotics"],
+    interests = ["Deep Learning", "Generative Models", "Computational Neuroscience", "Computer Vision", "Natural Language Processing", "Automatic Speech Recognition", "Brain–Computer Interfaces", "Robotics"]
     image: "/team/oiwi.png",
     sunglassesImage: "/team/oiwi-sunglasses.jpeg"
   },
@@ -34,7 +34,7 @@ const teamMembers: TeamMember[] = [
     name: "Francesco Mantegna",
     title: "Postdoctoral Research Fellow",
     bio: "Francesco joined PNPL as a Postdoc in 2024 after receiving his PhD in Cognitive Psychology and Neuroscience from NYU under the supervision of David Poeppel. His interests include Brain Computer Interfaces (BCIs), Neurotechnology, and Speech Neuroprosthetics.",
-    interests: ["Brain Computer Interfaces", "Neurotechnology", "Speech Neuroprosthetics", "Cognitive Psychology"],
+    interests: ["Neurotechnology", "Speech Neuroprosthetics", "Cognitive Psychology"],
     image: "/team/francesco.png",
     sunglassesImage: "/team/francesco-sunglasses.jpeg"
   },
@@ -70,7 +70,7 @@ const teamMembers: TeamMember[] = [
     name: "Luisa Kurth",
     title: "DPhil/PhD Student",
     bio: "My motivation is to help improving people's lives through AI. Currently, I am mostly interested in the challenges of advancing machine learning for medical image analysis. The CDT in AIMS offers the perfect platform for this journey and I'm excited to connect with anyone sharing my interest. I hold a Bachelor's degree in Psychology from the University of Mannheim and a Master's degree from the University of Oxford's Internet Institute. During my time at Oxford, I participated in cutting-edge research on the societal and ethical aspects of AI. This experience fueled my fascination for machine learning, leading me to pursue a second Master's degree at the University of Tübingen, where I focused on the foundations of deep learning, large language models and explainable AI. Along the way, I've conducted brain research at the Max-Planck-Institute and worked as a policy researcher at the OECD. Outside of research, I enjoy reading, socializing with friends, and visiting art galleries.",
-    interests: ["Medical Image Analysis", "Deep Learning", "Explainable AI", "AI Ethics"],
+    interests: ["AI for Health", "Individual Variation", "Explainable AI", "AI Ethics"],
     image: "/team/luisa.jpg",
     sunglassesImage: "/team/luisa-sunglasses.jpeg"
   },
@@ -78,7 +78,7 @@ const teamMembers: TeamMember[] = [
     name: "Miran Özdogan",
     title: "DPhil/PhD Student",
     bio: "Miran's work in PNPL has recently focused on the role of sequence models, such as state space models (e.g. S4 and Mamba) for BCIs. He is also working to establish new benchmarks and standards for neural decoding, in order to quantify and accelerate progress in the field.",
-    interests: ["State Space Models", "Brain Computer Interfaces", "Neural Decoding", "Benchmarking"],
+    interests: ["State Space Models", "Diffusion Models", "Neural Decoding", "Benchmarking"],
     image: "/team/miran.png",
     sunglassesImage: "/team/miran-sunglasses.jpeg"
   },
@@ -94,7 +94,7 @@ const teamMembers: TeamMember[] = [
     name: "SungJun Cho",
     title: "DPhil/PhD Student",
     bio: "SungJun is a Neuroscience DPhil student, co-supervised with Mark Woolrich at OHBA/OxCIN/Psychiatry. He joined Michaelmas Term 2024.",
-    interests: ["Probabilistic dynamic models/DyNeMo/DyNeSte", "Foundation models", "Tokenisation"],
+    interests: ["Probabilistic Models", "Dynamic Models", "Foundation Models", "Tokenisation"],
     image: "/team/sungjun.jpg",
     sunglassesImage: "/team/sungjun-sunglasses.jpeg"
   },
@@ -126,7 +126,7 @@ const teamMembers: TeamMember[] = [
     name: "Tasha Kim",
     title: "DPhil/PhD Student",
     bio: "Tasha J. Kim is a DPhil student jointly supervised by Dr. Oiwi Parker Jones and Prof. Perla Maiolino. Her research explores the intersection of brain function and robotic reasoning, focusing on neuro-symbolic AI systems that interpret neural and behavioral signals to guide robot manipulation and decision-making. She aims to develop robots that serve as collaborative and augmentative partners to humans. Before joining PNPL, Tasha completed her M.S. from Stanford University and B.Sc. from Brown University, and worked for Google and the National Institute of Standards and Technology (NIST).",
-    interests: ["Neuro-symbolic AI", "Robotic Reasoning", "Brain-Computer Interfaces"],
+    interests: ["Neuro-Symbolic AI", "Robotic Reasoning", "Brain Computer Interfaces"],
     image: "/team/tasha.jpeg",
     sunglassesImage: "/team/tasha-sunglasses.jpg"
   },
@@ -134,7 +134,7 @@ const teamMembers: TeamMember[] = [
     name: "Alex Fung",
     title: "DPhil/PhD Student",
     bio: "Alex Fung is a DPhil student in Neurosurgery, co-supervised with Alex Green. He started his DPhil in 2024 and joined PNPL in 2025. His research focuses on the clinical application of neural decoding for minimally conscious patients.",
-    interests: ["Neural Decoding", "Minimally Conscious Patients"],
+    interests: ["Clinical Neuroscience", "EEG", "MRI", "Neural Decoding"],
     image: "/team/alex.jpeg",
     sunglassesImage: "/team/alex-sunglasses.jpg"
   }
@@ -265,7 +265,7 @@ export default function Team() {
             lineHeight: 1.6,
             fontWeight: 300
           }}>
-            A multidisciplinary team of researchers, engineers, and students advancing the frontiers of neural processing and brain-computer interfaces.
+            A multidisciplinary team of researchers, engineers, and students advancing the frontiers of neural processing and brain computer interfaces.
           </p>
         </div>
 
