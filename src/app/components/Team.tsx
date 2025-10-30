@@ -25,7 +25,7 @@ const teamMembers: TeamMember[] = [
     email: "oiwi@robots.ox.ac.uk",
     website: "https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/dr-oiwi-parker-jones/",
     twitter: "@oiwi3000",
-    interests = ["Applied AI", "Generative Models", "Computational Neuroscience", "Natural Language Processing", "Automatic Speech Recognition", "Brain Computer Interfaces", "Robotics"],
+    interests: ["Applied AI", "Generative Models", "Computational Neuroscience", "Natural Language Processing", "Automatic Speech Recognition", "Brain Computer Interfaces", "Robotics"],
     image: "/team/oiwi.png",
     sunglassesImage: "/team/oiwi-sunglasses.jpeg"
   },
