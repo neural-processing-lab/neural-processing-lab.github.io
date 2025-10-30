@@ -116,7 +116,7 @@ const teamMembers: TeamMember[] = [
   {
     name: "Benjamin Ballyk",
     title: "DPhil/PhD Student",
-    bio: "Benjamin is a DPhil student in the Autonomous Intelligent Machines and Systems (AIMS) CDT. He joined Michaelmas Term 2025.",
+    bio: "Ben is a DPhil student jointly supervised by Dr. Oiwi Parker Jones and Prof. Ingmar Posner. His research investigates biologically-grounded data augmentation strategies to improve the generalization of speech decoding via brain–computer interfaces. He previously completed an M.Sc. in Mathematical Modelling and Scientific Computing at the University of Oxford, where his dissertation focused on privacy-preserving deep generative modelling for longitudinal clinical data. He has also conducted industrial research on vision–language models for autonomous fleet guidance at Magna International.",
     interests: ["Flow Matching", "Applied Mathematics"],
     image: "/team/benjamin.jpeg",
     sunglassesImage: "/team/benjamin-sunglasses.jpg"
