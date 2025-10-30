@@ -23,9 +23,10 @@ const teamMembers: TeamMember[] = [
     title: "Principal Investigator",
     bio: "Oiwi leads the Parker Jones Neural Processing Lab (PNPL) at the University of Oxford. His aim is to build bridges between deep learning and the brain, for example by accelerating the development of Brain Computer Interfaces (BCIs), but also by developing deep learning methods for interpreting brain data and leveraging principles of systems neuroscience to inform machine learning. Oiwi completed a DPhil focused on Natural Language Processing (NLP) for low-resource languages. He further trained as a postdoc in Imaging Neuroscience at UCL and Oxford, and in Applied Artificial Intelligence at the ORI. He was previously a lecturer in Medicine at St Peter's College, Oxford, and is currently Hugh Price Fellow in Computer Science at Jesus College, Oxford.",
     email: "oiwi@robots.ox.ac.uk",
-    website: "https://ori.ox.ac.uk/people/oiwi-parker-jones/",
+    college website: "https://www.jesus.ox.ac.uk/about-jesus-college/our-community/people/dr-oiwi-parker-jones/",
+    ori website: "https://ori.ox.ac.uk/people/oiwi-parker-jones/",
     twitter: "@oiwi3000",
-    interests: ["Neural Decoding", "Brain-Computer Interfaces", "Deep Learning", "Computational Neuroscience"],
+    interests: ["Deep Learning", "Neural Decoding", "Brain-Computer Interfaces", "Clinical Neuroscience", "Inner Speech", "Speech Recognition", "NLP", "Robotics"],
     image: "/team/oiwi.png",
     sunglassesImage: "/team/oiwi-sunglasses.jpeg"
   },
