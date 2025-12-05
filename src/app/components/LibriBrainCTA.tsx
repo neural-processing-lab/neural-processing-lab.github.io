@@ -73,10 +73,9 @@ export default function LibriBrainCTA() {
           margin: '0 auto 3rem auto',
           fontWeight: 300
         }}>
-          Thank you to everyone who competed this year. We&apos;re keeping the momentum
-          going with a dedicated NeurIPS workshop&mdash;submit analyses, models, or
-          insights built on LibriBrain. The <code>pnpl</code> package that powered our
-          baselines is now fully open source, so you can extend it without restriction.
+          Thank you to everyone who competed this year! Join us at our NeurIPS 2025 session
+          on Sunday, December 7 (2:00–4:45 PM PST) to see winning teams present their approaches.
+          The <code>pnpl</code> package that powered our baselines is fully open source.
         </p>
 
         <div style={{
@@ -87,7 +86,7 @@ export default function LibriBrainCTA() {
           alignItems: 'center'
         }}>
           <a
-            href="https://libribrain.com/workshop-paper"
+            href="https://neural-processing-lab.github.io/2025-libribrain-competition/workshop-paper/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -114,7 +113,7 @@ export default function LibriBrainCTA() {
               e.currentTarget.style.color = '#000';
             }}
           >
-            Submit Workshop Paper →
+            View Accepted Papers →
           </a>
 
           <a
@@ -166,7 +165,7 @@ export default function LibriBrainCTA() {
                 background: '#FFC107',
                 borderRadius: '50%'
               }} />
-              <span>Competition concluded — workshop paper submissions are now open</span>
+              <span>Competition concluded — view accepted workshop papers</span>
             </div>
             <div style={{
               display: 'flex',
