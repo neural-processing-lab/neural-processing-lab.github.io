@@ -86,7 +86,7 @@ export default function LibriBrainCTA() {
           alignItems: 'center'
         }}>
           <a
-            href="https://neural-processing-lab.github.io/2025-libribrain-competition/workshop-paper/"
+            href="https://neural-processing-lab.github.io/2025-libribrain-competition/workshop-papers/"
             target="_blank"
             rel="noopener noreferrer"
             style={{

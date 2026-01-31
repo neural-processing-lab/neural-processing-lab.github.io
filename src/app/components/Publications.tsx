@@ -28,7 +28,7 @@ const publications: Publication[] = [
   {
     title: "LibriBrain: Over 50 Hours of Within-Subject MEG to Improve Speech Decoding Methods at Scale",
     authors: ["Miran Özdogan", "Gilad Landau", "Gereon Elvers", "Dulhan Jayalath", "Pratik Somaiya", "Francesco Mantegna", "Mark Woolrich", "Oiwi Parker Jones"],
-    venue: "arXiv preprint",
+    venue: "NeurIPS 2025 Datasets and Benchmarks Track",
     year: 2025,
     arxiv: "2506.02098",
     description: "The largest single-subject MEG dataset to date for speech decoding, with over 50 hours of recordings. Cite this for the LibriBrain dataset.",
