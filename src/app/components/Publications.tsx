@@ -16,13 +16,33 @@ interface Publication {
 
 const publications: Publication[] = [
   {
-    title: "The 2025 PNPL competition: Speech detection and phoneme classification in the LibriBrain dataset",
-    authors: ["Gilad Landau", "Miran Özdogan", "Gereon Elvers", "Francesco Mantegna", "Pratik Somaiya", "Dulhan Jayalath", "Luisa Kurth", "Teyun Kwon", "Brendan Shillingford", "Greg Farquhar", "Minqi Jiang", "Karim Jerbi", "Hamza Abdelhedi", "Yorguin Mantilla Ramos", "Caglar Gulcehre", "Mark Woolrich", "Natalie Voets", "Oiwi Parker Jones"],
-    venue: "NeurIPS 2025 Competition Track",
+    title: "MEG-XL: Data-Efficient Brain-to-Text via Long-Context Pre-Training",
+    authors: ["Dulhan Jayalath", "Oiwi Parker Jones"],
+    venue: "arXiv preprint",
+    year: 2026,
+    arxiv: "2602.02494",
+    description: "Introducing MEG-XL, a model pre-trained with 2.5 minutes of MEG context per sample, significantly improving data-efficient brain-to-text decoding performance.",
+    abstract: "Clinical brain-to-text interfaces are designed for paralysed patients who cannot provide extensive training recordings. Pre-training improves data-efficient generalisation by learning statistical priors across subjects, but these priors critically depend on context. While natural speech might unfold gradually over minutes, most methods pre-train with only a few seconds of context. Thus, we propose MEG-XL, a model pre-trained with 2.5 minutes of MEG context per sample, 5-300x longer than prior work, and equivalent to 191k tokens, capturing extended neural context. Fine-tuning on the task of word decoding from brain data, MEG-XL matches supervised performance with a fraction of the data (e.g. 1hr vs 50hrs) and outperforms brain foundation models. We find that models pre-trained with longer contexts learn representations that transfer better to word decoding. Our results indicate that long-context pre-training helps exploit extended neural context that other methods unnecessarily discard.",
+    featured: true
+  },
+  {
+    title: "Elementary, My Dear Watson: Non-Invasive Neural Keyword Spotting in the LibriBrain Dataset",
+    authors: ["Gereon Elvers", "Gilad Landau", "Oiwi Parker Jones"],
+    venue: "NeurIPS 2025 Data on the Brain & Mind Workshop",
     year: 2025,
-    arxiv: "2506.10165",
-    description: "Competition framework for advancing speech decoding from non-invasive brain data using the LibriBrain dataset. Cite this for the LibriBrain competition.",
-    abstract: "The advance of speech decoding from non-invasive brain data holds the potential for profound societal impact. Among its most promising applications is the restoration of communication to paralysed individuals affected by speech deficits such as dysarthria, without the need for high-risk surgical interventions. This competition provides a standardized framework for evaluating speech detection and phoneme classification methods using the LibriBrain dataset, fostering collaborative progress in the field.",
+    arxiv: "2510.21038",
+    description: "Introducing Keyword Spotting (KWS) as a practical intermediate task for advancing non-invasive brain-computer interfaces, with standardised benchmarks and a reference model on the LibriBrain dataset.",
+    abstract: "Non-invasive brain-computer interfaces (BCIs) are beginning to benefit from large, public benchmarks. However, current benchmarks target relatively simple, foundational tasks like Speech Detection and Phoneme Classification, while application-ready results on tasks like Brain-to-Text remain elusive. We propose Keyword Spotting (KWS) as a practically applicable, privacy-aware intermediate task. Using the deep 52-hour, within-subject LibriBrain corpus, we provide standardized train/validation/test splits for reproducible benchmarking, and adopt an evaluation protocol tailored to extreme class imbalance. Concretely, we use area under the precision-recall curve (AUPRC) as a robust evaluation metric, complemented by false alarms per hour (FA/h) at fixed recall to capture user-facing trade-offs. To simplify deployment and further experimentation within the research community, we are releasing an updated version of the pnpl library with word-level dataloaders and Colab-ready tutorials. As an initial reference model, we present a compact 1-D Conv/ResNet baseline with focal loss and top-k pooling that is trainable on a single consumer-class GPU. The reference model achieves approximately 13x the permutation baseline AUPRC on held-out sessions, demonstrating the viability of the task. Exploratory analyses reveal: (i) predictable within-subject scaling - performance improves log-linearly with more training hours - and (ii) the existence of word-level factors (frequency and duration) that systematically modulate detectability.",
+    featured: true
+  },
+  {
+    title: "Gated Uncertainty-Aware Runtime Dual Invariants for Neural Signal-Controlled Robotics",
+    authors: ["Tasha Kim", "Oiwi Parker Jones"],
+    venue: "NeurIPS 2025 Workshop on Embodied and Safe-Assured Robotic Systems",
+    year: 2025,
+    arxiv: "2511.20570",
+    description: "GUARDIAN, a framework for real-time neuro-symbolic verification for neural signal-controlled robotics, achieving high safety rates even with low test accuracies and high confidence miscalibration.",
+    abstract: "Safety-critical assistive systems that directly decode user intent from neural signals require rigorous guarantees of reliability and trust. We present GUARDIAN (Gated Uncertainty-Aware Runtime Dual Invariants), a framework for real-time neuro-symbolic verification for neural signal-controlled robotics. GUARDIAN enforces both logical safety and physiological trust by coupling confidence-calibrated brain signal decoding with symbolic goal grounding and dual-layer runtime monitoring. On the BNCI2014 motor imagery electroencephalogram (EEG) dataset with 9 subjects and 5,184 trials, the system performs at a high safety rate of 94-97% even with lightweight decoder architectures with low test accuracies (27-46%) and high ECE confidence miscalibration (0.22-0.41). We demonstrate 1.7x correct interventions in simulated noise testing versus at baseline. The monitor operates at 100Hz and sub-millisecond decision latency, making it practically viable for closed-loop neural signal-based systems. Across 21 ablation results, GUARDIAN exhibits a graduated response to signal degradation, and produces auditable traces from intent, plan to action, helping to link neural evidence to verifiable robot action.",
     featured: true
   },
   {
@@ -36,9 +56,19 @@ const publications: Publication[] = [
     featured: true
   },
   {
+    title: "The 2025 PNPL competition: Speech detection and phoneme classification in the LibriBrain dataset",
+    authors: ["Gilad Landau", "Miran Özdogan", "Gereon Elvers", "Francesco Mantegna", "Pratik Somaiya", "Dulhan Jayalath", "Luisa Kurth", "Teyun Kwon", "Brendan Shillingford", "Greg Farquhar", "Minqi Jiang", "Karim Jerbi", "Hamza Abdelhedi", "Yorguin Mantilla Ramos", "Caglar Gulcehre", "Mark Woolrich", "Natalie Voets", "Oiwi Parker Jones"],
+    venue: "NeurIPS 2025 Competition Track",
+    year: 2025,
+    arxiv: "2506.10165",
+    description: "Competition framework for advancing speech decoding from non-invasive brain data using the LibriBrain dataset. Cite this for the LibriBrain competition.",
+    abstract: "The advance of speech decoding from non-invasive brain data holds the potential for profound societal impact. Among its most promising applications is the restoration of communication to paralysed individuals affected by speech deficits such as dysarthria, without the need for high-risk surgical interventions. This competition provides a standardized framework for evaluating speech detection and phoneme classification methods using the LibriBrain dataset, fostering collaborative progress in the field.",
+    featured: true
+  },
+  {
     title: "Unlocking Non-Invasive Brain-to-Text",
     authors: ["Dulhan Jayalath", "Gilad Landau", "Oiwi Parker Jones"],
-    venue: "arXiv preprint",
+    venue: "ICML 2025 Workshop on Generative AI and Biology",
     year: 2025,
     arxiv: "2505.13446",
     description: "Advances in non-invasive brain-to-text technology with LLM-based rescoring and predictive in-filling approaches.",
