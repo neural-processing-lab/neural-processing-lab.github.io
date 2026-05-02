@@ -21,7 +21,7 @@ const publications: Publication[] = [
     venue: "ICML 2026",
     year: 2026,
     arxiv: "2602.02494",
-    description: "MEG-XL is a model pre-trained with extremely long-context MEG samples, leveraging long-context dependencies in neural signals to significantly improve data-efficient brain-to-text decoding.",
+    description: "MEG-XL is a model pre-trained with extremely long-context MEG samples, leveraging long-range dependencies in neural signals to significantly improve data-efficient brain-to-text decoding.",
     abstract: "Clinical brain-to-text interfaces are designed for paralysed patients who cannot provide extensive training recordings. Pre-training improves data-efficient generalisation by learning statistical priors across subjects, but these priors critically depend on context. While natural speech might unfold gradually over minutes, most methods pre-train with only a few seconds of context. Thus, we propose MEG-XL, a model pre-trained with 2.5 minutes of MEG context per sample, 5-300x longer than prior work, and equivalent to 191k tokens, capturing extended neural context. Fine-tuning on the task of word decoding from brain data, MEG-XL matches supervised performance with a fraction of the data (e.g. 1hr vs 50hrs) and outperforms brain foundation models. We find that models pre-trained with longer contexts learn representations that transfer better to word decoding. Our results indicate that long-context pre-training helps exploit extended neural context that other methods unnecessarily discard.",
     featured: true
   },
