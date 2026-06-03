@@ -81,7 +81,7 @@ const publications: Publication[] = [
     venue: "ICML 2025",
     year: 2025,
     arxiv: "2406.04328",
-    description: "Breakthrough in scaling speech decoding models across subjects using self-supervised learning techniques.",
+    description: "Breakthrough in scaling speech decoding models across both subjects and datasets using self-supervised learning techniques.",
     abstract: "The past few years have seen remarkable progress in the decoding of speech from brain activity, primarily driven by large single-subject datasets. However, due to individual variation in brain anatomy and physiology, these models typically do not generalize well across subjects. Here we show that self-supervised learning can be used to create speech decoding models that generalize across subjects and datasets. Using a combination of contrastive learning and masked language modeling on neural recordings from multiple subjects, we demonstrate significant improvements in cross-subject decoding performance. These advances unlock the potential for scaling speech decoding models beyond the current frontier.",
     featured: true
   }
