@@ -51,7 +51,7 @@ export default function LibriBrainCTA() {
             borderRadius: '20px',
             border: '1px solid rgba(255, 255, 255, 0.2)'
           }}>
-            Update
+            Now Live
           </span>
         </div>
 
@@ -62,7 +62,7 @@ export default function LibriBrainCTA() {
           letterSpacing: '-0.02em',
           lineHeight: 1.2
         }}>
-          LibriBrain Competition &rarr; NeurIPS Workshop
+          The PNPL Competition is Back for 2026
         </h2>
 
         <p style={{
@@ -73,9 +73,10 @@ export default function LibriBrainCTA() {
           margin: '0 auto 3rem auto',
           fontWeight: 300
         }}>
-          Thank you to everyone who competed this year! Join us at our NeurIPS 2025 session
-          on Sunday, December 7 (2:00–4:45 PM PST) to see winning teams present their approaches.
-          The <code>pnpl</code> package that powered our baselines is fully open source.
+          This year&rsquo;s task is <strong>Word Classification</strong>: decode which word a subject is hearing
+          from MEG brain recordings, using our new LibriBrain100 dataset &mdash; over 100 hours of MEG
+          from 33 subjects. Go <strong>Deep</strong> on a single subject or <strong>Broad</strong> across 32, and
+          enter either or both tracks. Submissions are open now and close on <strong>15 October 2026 (AoE)</strong>.
         </p>
 
         <div style={{
@@ -86,7 +87,7 @@ export default function LibriBrainCTA() {
           alignItems: 'center'
         }}>
           <a
-            href="https://neural-processing-lab.github.io/2025-libribrain-competition/workshop-papers/"
+            href="https://neural-processing-lab.github.io/2025-libribrain-competition/editions/2026/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -113,11 +114,11 @@ export default function LibriBrainCTA() {
               e.currentTarget.style.color = '#000';
             }}
           >
-            View Accepted Papers →
+            Join the Competition →
           </a>
 
           <a
-            href="https://github.com/neural-processing-lab/pnpl"
+            href="https://neural-processing-lab.github.io/2025-libribrain-competition/editions/2026/leaderboard/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -144,7 +145,7 @@ export default function LibriBrainCTA() {
               e.currentTarget.style.color = '#fff';
             }}
           >
-            Explore pnpl on GitHub →
+            View Live Leaderboard →
           </a>
 
           <div style={{
@@ -162,10 +163,10 @@ export default function LibriBrainCTA() {
               <div style={{
                 width: '8px',
                 height: '8px',
-                background: '#FFC107',
+                background: '#66BB6A',
                 borderRadius: '50%'
               }} />
-              <span>Competition concluded — view accepted workshop papers</span>
+              <span>Submissions open until 15 October 2026 (AoE)</span>
             </div>
             <div style={{
               display: 'flex',
@@ -178,7 +179,7 @@ export default function LibriBrainCTA() {
                 background: '#4FC3F7',
                 borderRadius: '50%'
               }} />
-              <span><code>pnpl</code> package is fully open source</span>
+              <span>Tutorials, baselines and the open-source <code>pnpl</code> toolbox are ready to go</span>
             </div>
           </div>
         </div>
@@ -199,7 +200,7 @@ export default function LibriBrainCTA() {
               marginBottom: '0.5rem',
               color: '#fff'
             }}>
-              50+
+              100+
             </div>
             <div style={{
               fontSize: 'clamp(12px, 2.5vw, 14px)',
@@ -218,7 +219,7 @@ export default function LibriBrainCTA() {
               marginBottom: '0.5rem',
               color: '#fff'
             }}>
-              NeurIPS 2025
+              Deep &amp; Broad
             </div>
             <div style={{
               fontSize: 'clamp(12px, 2.5vw, 14px)',
@@ -226,7 +227,7 @@ export default function LibriBrainCTA() {
               textTransform: 'uppercase',
               letterSpacing: '0.05em'
             }}>
-              Workshop on Speech BCIs
+              Two Tracks &middot; 33 Subjects
             </div>
           </div>
 
@@ -237,7 +238,7 @@ export default function LibriBrainCTA() {
               marginBottom: '0.5rem',
               color: '#fff'
             }}>
-              <code>pnpl</code>
+              15 Oct 2026
             </div>
             <div style={{
               fontSize: 'clamp(12px, 2.5vw, 14px)',
@@ -245,7 +246,7 @@ export default function LibriBrainCTA() {
               textTransform: 'uppercase',
               letterSpacing: '0.05em'
             }}>
-              Open Source Toolbox
+              Submission Deadline (AoE)
             </div>
           </div>
         </div>
