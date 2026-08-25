@@ -38,7 +38,7 @@ export default function RootLayout({
         <Script
           src="https://analytics-production-d4f3.up.railway.app/script.js"
           data-website-id="3755ee1d-ade3-4a47-a70f-d799fff494bd"
-          data-domains="neural-processing-lab.github.io"
+          data-domains="neural-processing-lab.github.io,neuralprocessinglab.com"
           strategy="afterInteractive"
         />
       </body>
