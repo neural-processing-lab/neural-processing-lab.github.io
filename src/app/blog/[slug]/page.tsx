@@ -5,6 +5,7 @@ import Citations from '../../components/Citations';
 import BlogPostCitation from '../../components/BlogPostCitation';
 import TableOfContents from '../../components/TableOfContents';
 import MathRenderer from '../../components/MathRenderer';
+import OVMIVisualizer from '../../components/OVMIVisualizer';
 import Footer from '../../components/Footer';
 import { notFound } from 'next/navigation';
 
@@ -27,6 +28,15 @@ export default async function BlogPostPage({ params }: PageProps) {
   if (!post) {
     notFound();
   }
+
+  const ovmiVisualizerMarker = '<!-- OVMI_VISUALIZER -->';
+  const hasOvmiVisualizer =
+    slug === 'what-can-speech-brain-computer-interfaces-communicate' &&
+    post.content.includes(ovmiVisualizerMarker);
+  const [contentBeforeVisualizer, ...contentAfterVisualizerParts] = hasOvmiVisualizer
+    ? post.content.split(ovmiVisualizerMarker)
+    : [post.content];
+  const contentAfterVisualizer = contentAfterVisualizerParts.join(ovmiVisualizerMarker);
 
   return (
     <>
@@ -162,7 +172,15 @@ export default async function BlogPostPage({ params }: PageProps) {
               }}
               className="blog-content"
             >
-              <div dangerouslySetInnerHTML={{ __html: post.content }} />
+              {hasOvmiVisualizer ? (
+                <>
+                  <div dangerouslySetInnerHTML={{ __html: contentBeforeVisualizer }} />
+                  <OVMIVisualizer />
+                  <div dangerouslySetInnerHTML={{ __html: contentAfterVisualizer }} />
+                </>
+              ) : (
+                <div dangerouslySetInnerHTML={{ __html: post.content }} />
+              )}
             </div>
           </MathRenderer>
 
