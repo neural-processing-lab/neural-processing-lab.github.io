@@ -15,6 +15,7 @@ export interface BlogPost {
   readingTime: number;
   citations?: Citation[];
   selfCitation?: string;
+  citationTarget?: "blog" | "paper";
   toc?: TocItem[];
   draft?: boolean;
 }
@@ -40,5 +41,6 @@ export interface BlogMetadata {
   tags: string[];
   citations?: Citation[];
   selfCitation?: string;
+  citationTarget?: "blog" | "paper";
   draft?: boolean;
 }

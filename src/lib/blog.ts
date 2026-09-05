@@ -184,6 +184,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
       readingTime,
       citations: metadata.citations,
       selfCitation: metadata.selfCitation,
+      citationTarget: metadata.citationTarget,
       toc: tocItems,
       draft: metadata.draft || false,
     };

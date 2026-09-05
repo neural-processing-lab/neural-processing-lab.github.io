@@ -4,9 +4,10 @@ import React, { useState, useEffect } from 'react';
 
 interface BlogPostCitationProps {
   bibtex: string;
+  target?: "blog" | "paper";
 }
 
-export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
+export default function BlogPostCitation({ bibtex, target = "blog" }: BlogPostCitationProps) {
   const [copied, setCopied] = useState(false);
   const [mounted, setMounted] = useState(false);
   const baseButtonColor = '#4a4a4a';
@@ -68,7 +69,7 @@ export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
             <span style={{
               fontSize: '20px'
             }}>📄</span>
-            Cite this blog post
+            {target === "paper" ? "Cite the paper" : "Cite this blog post"}
           </h3>
           
           <p style={{
@@ -77,7 +78,9 @@ export default function BlogPostCitation({ bibtex }: BlogPostCitationProps) {
             margin: 0,
             lineHeight: 1.4
           }}>
-            Use this citation format to reference this blog post in your research
+            {target === "paper"
+              ? "If you enjoyed this blog post, please cite the paper."
+              : "Use this citation format to reference this blog post in your research"}
           </p>
         </div>
         

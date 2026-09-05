@@ -186,7 +186,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
           {/* Self Citation */}
           {post.selfCitation && (
-            <BlogPostCitation bibtex={post.selfCitation} />
+            <BlogPostCitation bibtex={post.selfCitation} target={post.citationTarget} />
           )}
 
           {/* Citations */}

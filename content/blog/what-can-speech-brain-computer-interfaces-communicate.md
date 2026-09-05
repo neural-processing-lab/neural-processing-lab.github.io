@@ -5,7 +5,8 @@ author: "Dulhan Jayalath, Oiwi Parker Jones"
 date: "2026-08-18"
 draft: false
 tags: ["Brain-Computer Interfaces","Speech Decoding","Information Theory","Evaluation","OVMI"]
-selfCitation: "@misc{jayalath2026ovmiBlog,\n  title={Measuring Progress by Asking: What Can Speech Brain--Computer Interfaces Communicate?},\n  author={Jayalath, Dulhan and Parker Jones, Oiwi},\n  year={2026},\n  url={https://neural-processing-lab.github.io/blog/what-can-speech-brain-computer-interfaces-communicate},\n  note={Blog post}\n}"
+citationTarget: "paper"
+selfCitation: "@article{jayalath2026ovmi,\n  title={A Common Measure of Communication for Speech Brain-Computer Interfaces},\n  author={Jayalath, Dulhan and Ballyk, Benjamin and Parker Jones, Oiwi},\n  journal={arXiv preprint arXiv:2609.02887},\n  year={2026}\n}"
 citations:
   - id: "card2024speech"
     title: "An Accurate and Rapidly Calibrating Speech Neuroprosthesis"
