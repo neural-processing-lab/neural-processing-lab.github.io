@@ -1,8 +1,8 @@
 ---
-title: "Measuring Progress by Asking: What Can Speech Brain-Computer Interfaces Communicate?"
-excerpt: "Accuracy alone cannot tell us what a speech BCI can communicate. Open-Vocabulary Mutual Information measures both lexical coverage and decoding performance."
+title: "Measuring Progress by Asking: What Can Though-to-Text Interfaces Communicate?"
+excerpt: "Progress in thought-to-text with speech decoding BCIs is becoming increasingly difficult to compare. How can we standardise scores and measure progress?"
 author: "Dulhan Jayalath, Oiwi Parker Jones"
-date: "2026-08-18"
+date: "2026-09-05"
 draft: false
 tags: ["Brain-Computer Interfaces","Speech Decoding","Information Theory","Evaluation","OVMI"]
 citationTarget: "paper"
@@ -91,9 +91,9 @@ citations:
 
 *How can we unify scores on a common scale to measure progress in speech BCIs?*
 
-The field of speech brain-computer interfaces (speech BCIs) is now entering an exciting era. Invasive speech BCIs – those that require surgically implanting a recording device in the brain – are reportably able to decode hundreds of thousands of words from patients’ attempted speech at an astounding level of accuracy ([Card et al. 2024](https://www.nejm.org/doi/full/10.1056/NEJMoa2314132)) which is better than the best WER across a set of standard benchmarks for SOTA ASR at the time of writing (see e.g. [the Hugging Face Open ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)). What’s more, non-invasive devices, which do not necessitate the risk of surgical procedures, are beginning to be able to decode hundreds of words from brain data collected while subjects listen to speech. How can we continue to accelerate improvements in non-invasive BCIs? One strategy is to advance methods for speech decoding from brain data, in part, by comparing what works across as broad a set of studies as possible. But comparing results across studies can be surprisingly difficult.
+The field of speech brain-computer interfaces (speech BCIs) is now entering an exciting era. Invasive speech BCIs – those that require surgically implanting a recording device in the brain – are reportably able to decode hundreds of thousands of words from patients’ attempted speech at an astounding level of accuracy ([Card et al. 2024](https://www.nejm.org/doi/full/10.1056/NEJMoa2314132)) which is better than the best WER across a set of standard benchmarks for automated speech recognition (ASR) at the time of writing (see e.g. [the Hugging Face Open ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)). What’s more, non-invasive devices, which do not necessitate the risk of surgical procedures, are beginning to be able to decode hundreds of words from brain data collected while subjects listen to speech. How can we continue to accelerate improvements in non-invasive BCIs? One strategy is to advance methods for speech decoding from brain data, in part, by comparing what works across as broad a set of studies as possible. But comparing results across studies can be surprisingly difficult.
 
-## Studies are not always easy to compare
+## Studies are becoming difficult to compare
 
 Let’s start with a hypothetical: suppose two different speech BCI studies. 
 
@@ -120,17 +120,21 @@ The 50 most common words in English are primarily composed of function words lik
 
 Given these challenges, how are we to measure progress in non-invasive speech decoding when different studies report results on different vocabularies (e.g. [d’Ascoli et al. 2025](https://pubmed.ncbi.nlm.nih.gov/41298362/) and [Jayalath et al. 2025](https://arxiv.org/abs/2505.13446))?
 
-## Benchmarks are not the whole answer
+## Benchmarks do not measure the entire field
 
 A natural solution for measuring progress in science is to standardise evaluation with a benchmark. This is what fields like Computer Vision managed with ImageNet, the famous image classification dataset that is now almost mandatory to report scores on for any paper that introduces a new method. The intention of benchmarks like this is that if all methods are evaluated on the same data under the same settings (e.g. fixed train/test splits), then we can identify which method performs best. Such benchmarks have begun to emerge in speech BCIs, for example in the structure of the LibriBrain ([Özdogan et al. 2025](https://arxiv.org/abs/2506.02098)) and LibriBrain100 ([Mantegna et al. 2026a](https://arxiv.org/abs/2608.25204)) datasets and API for loading them in the [pnpl library](https://github.com/neural-processing-lab/pnpl) for our yearly PNPL competition ([Landau et al. 2025](https://arxiv.org/abs/2506.10165), [Mantegna et al. 2026b](https://arxiv.org/abs/2609.03231)). But benchmarks are not the only way to address these challenges, and, despite our efforts to provide benchmarks and standards, it is natural for researchers in a field to explore other paths too.
 
-There are many sources of heterogeneity in experimental settings within the field. Invasive and non-invasive systems use different recording technologies and necessitate different experimental protocols. Some studies decode attempted speech, where participants attempt to say sentences they are prompted with; others decode perceived speech, where participants perceive a visual or auditory sentence stimulus; and others even decode imagined speech, where participants silently think about a prompt (e.g. [Ballyk et al. 2026](https://arxiv.org/abs/2607.05165)). Study participants also come from different populations: sometimes paralysed patients in invasive studies, and healthy subjects in non-invasive ones. The prompts in those studies also differ, with some focusing on sentences or words related to clinical caregiving, while others focus on naturalistic narrative or conversational speech.
+There are many sources of heterogeneity in experimental settings within the field. Invasive and non-invasive systems use different recording technologies and necessitate different experimental protocols. Some studies decode attempted speech, where participants attempt to say sentences they are prompted with; others decode perceived speech, where participants perceive a visual or auditory sentence stimulus; and others even have begun to decode imagined speech, where participants silently think about a prompt (e.g. [Ballyk et al. 2026](https://arxiv.org/abs/2607.05165)). Study participants also come from different populations: sometimes paralysed patients in invasive studies, and healthy subjects in non-invasive ones. The prompts in those studies also differ, with some focusing on sentences or words related to clinical caregiving, while others focus on naturalistic narrative or conversational speech. Thus, benchmarks are focused on measuring progress within one configuration of these many possible experimental settings.
 
 This raises another question:
 
-*What does performance on a speech BCI benchmark mean for communication?*
+*How do we measure progress across the wider field?*
 
-As mentioned earlier, while a benchmark might tell us that model A outperforms model B on a 100-word classification problem, it does not tell us whether those words allow us to say 5%, 30%, or even 80% of the sentences we might actually wish to say. To give an example, if I wanted to say “In the beginning, the Universe was created,” but of the words in that sentence, only “the” were in the 100-word set, then the model would not be particularly useful.
+Moreover, as mentioned earlier, while a benchmark might tell us that model A outperforms model B on a 100-word classification problem, it does not tell us whether those words allow us to say 5%, 30%, or even 80% of the sentences we might actually wish to say. To give an example, if I wanted to say “In the beginning, the Universe was created,” but of the words in that sentence, only “the” were in the 100-word set, then the model would not be particularly useful.
+
+Hence, we are also concerned with the question:
+
+*What does performance on a speech BCI benchmark mean for communication relative to a known distribution over the words a user wants to say?*
 
 ## Existing metrics are insufficient
 
@@ -163,10 +167,10 @@ We appreciate that users may not always have a specific vocabulary or communicat
 
 OVMI complements existing measures by asking the broader question that we started with: *given the words a user may wish to say, how much can this system communicate?*
 
-To see how we are using OVMI to benchmark progress in the field, check out our live leaderboard: [https://neural-processing-lab.github.io/OVMI/](https://neural-processing-lab.github.io/OVMI/)
+To see how we are using OVMI to compare results and track progress in the field, check out our [live OVMI explorer](https://neural-processing-lab.github.io/OVMI/). You can also use the interactive visualiser earlier in this post to compare the OVMI of some existing speech decoding systems.
 
-You can also select OVMI as a measurement on the 2026 PNPL competition’s leaderboard: [https://neural-processing-lab.github.io/2025-libribrain-competition/editions/2026/leaderboard/](https://neural-processing-lab.github.io/2025-libribrain-competition/editions/2026/leaderboard/) 
+You can also select OVMI as a measurement on the [2026 PNPL competition’s leaderboard](https://neural-processing-lab.github.io/2025-libribrain-competition/editions/2026/leaderboard/).
 
-We have also released a simple Python package to help you compute OVMI: [https://github.com/neural-processing-lab/OVMI](https://github.com/neural-processing-lab/OVMI) 
+We have also released a simple [Python package](https://github.com/neural-processing-lab/OVMI) to help compute OVMI.
 
-And lastly, we have a preprint on arXiv with all the mathematical, scientific, and technical details of OVMI: [https://arxiv.org/abs/2609.02887](https://arxiv.org/abs/2609.02887)
+And lastly, we have a [preprint on arXiv](https://arxiv.org/abs/2609.02887) with all the mathematical, scientific, and technical details.
