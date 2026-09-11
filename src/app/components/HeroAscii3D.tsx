@@ -250,7 +250,7 @@ export default function HeroAscii3D({
             marginBottom: '2rem',
             fontWeight: 300
           }}>
-            The Parker Jones Neural Processing Lab (PNPL; pronounced &apos;pineapple&apos;) is the newest group within the Oxford Robotics Institute, established through generous funding from the UK Research and Innovation&apos;s Medical Research Council (MRC). We are interested in brains, computers, language, and robotics – all core areas of natural and artificial intelligence. As such, our work spans foundational neuroscience, machine learning methods development, and systems applications such as Brain Computer Interfaces (BCIs).
+            The Parker Jones Neural Processing Lab (PNPL; pronounced &apos;pineapple&apos;) was established in 2023 in the Department of Engineering Science, University of Oxford. We are interested in brains, computers, language, and robotics – all core areas of natural and artificial intelligence. As such, our work spans foundational neuroscience, machine learning methods development, and systems applications such as Brain Computer Interfaces (BCIs).
           </p>
           <div 
             className="buttons-container"
