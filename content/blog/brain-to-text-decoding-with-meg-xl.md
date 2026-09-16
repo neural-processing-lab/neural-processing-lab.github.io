@@ -1,5 +1,5 @@
 ---
-title: Brain-to-text decoding with only minutes of labelled data using MEG-XL
+title: Brain-to-Text Decoding with Only Minutes of Labelled Data Using MEG-XL
 excerpt: >-
   How long-context pre-training helps MEG-XL adapt to new subjects with limited
   labelled brain data, and offers a starting point for the 2026 PNPL
