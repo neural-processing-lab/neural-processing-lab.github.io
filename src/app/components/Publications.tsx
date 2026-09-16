@@ -69,6 +69,7 @@ const publications: Publication[] = [
     year: 2026,
     arxiv: "2602.02494",
     links: [
+      { label: "Blog", href: "https://neural-processing-lab.github.io/blog/brain-to-text-decoding-with-meg-xl/" },
       { label: "Code", href: "https://github.com/neural-processing-lab/MEG-XL" }
     ],
     description: "MEG-XL is a model pre-trained with extremely long-context MEG samples, leveraging long-range dependencies in neural signals to significantly improve data-efficient brain-to-text decoding.",
