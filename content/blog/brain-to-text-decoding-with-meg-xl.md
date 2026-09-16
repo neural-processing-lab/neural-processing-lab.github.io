@@ -1,8 +1,8 @@
 ---
 title: Brain-to-Text Decoding with Only Minutes of Labelled Data Using MEG-XL
 excerpt: >-
-  How long-context pre-training helps MEG-XL adapt to new subjects with limited
-  labelled brain data, and offers a starting point for the 2026 PNPL
+  MEG-XL adapts to new subjects with less
+  labelled data and offers a strong baseline for the 2026 PNPL
   competition’s broad track.
 author: 'Dulhan Jayalath, Oiwi Parker Jones'
 date: '2026-09-16'
