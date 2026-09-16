@@ -9,6 +9,7 @@ interface Publication {
   year: number;
   doi?: string;
   arxiv?: string;
+  links?: { label: string; href: string }[];
   description?: string;
   abstract?: string;
   featured?: boolean;
@@ -22,6 +23,11 @@ const publications: Publication[] = [
     venue: "arXiv preprint",
     year: 2026,
     arxiv: "2609.02887",
+    links: [
+      { label: "Blog", href: "https://neural-processing-lab.github.io/blog/what-can-speech-brain-computer-interfaces-communicate/" },
+      { label: "Code", href: "https://github.com/neural-processing-lab/OVMI" },
+      { label: "Project page", href: "https://neural-processing-lab.github.io/OVMI/" }
+    ],
     description: "Open-Vocabulary Mutual Information (OVMI) compares speech BCIs on a shared communication scale, accounting for both vocabulary coverage and decoding accuracy.",
     abstract: "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress because systems use different datasets, recording methods, types of speech, and vocabularies, so their reported scores are rarely comparable. Underlying this measurement problem are two unresolved questions: (i) what distribution of words should a speech BCI enable a user to communicate, and (ii) how much information from this distribution can a system convey. We address both by deriving open-vocabulary mutual information (OVMI), an information-theoretic quantity that measures the information conveyed by a decoder relative to a reference distribution over the words a user may wish to communicate. This allows capabilities measured under different conditions, such as distinct vocabularies, to be evaluated on a common communication scale. We show that ordinarily reported accuracy, word error rate (WER), and other metrics computed only over the words a system supports can overstate how much of a user's intended speech the system can communicate. We then use OVMI to compare existing systems, expose trade-offs between how much of the user's language a system supports and how accurately it decodes those words, show that these comparisons depend on what the user is expected to communicate, and demonstrate that selecting a vocabulary to maximise OVMI yields up to 16.3% relative improvement in accuracy across three speech domains. OVMI therefore provides the speech BCI community with a principled way to compare heterogeneous systems, improve vocabulary design, and measure progress in the field.",
     featured: true
@@ -62,6 +68,9 @@ const publications: Publication[] = [
     venue: "ICML 2026",
     year: 2026,
     arxiv: "2602.02494",
+    links: [
+      { label: "Code", href: "https://github.com/neural-processing-lab/MEG-XL" }
+    ],
     description: "MEG-XL is a model pre-trained with extremely long-context MEG samples, leveraging long-range dependencies in neural signals to significantly improve data-efficient brain-to-text decoding.",
     abstract: "Clinical brain-to-text interfaces are designed for paralysed patients who cannot provide extensive training recordings. Pre-training improves data-efficient generalisation by learning statistical priors across subjects, but these priors critically depend on context. While natural speech might unfold gradually over minutes, most methods pre-train with only a few seconds of context. Thus, we propose MEG-XL, a model pre-trained with 2.5 minutes of MEG context per sample, 5-300x longer than prior work, and equivalent to 191k tokens, capturing extended neural context. Fine-tuning on the task of word decoding from brain data, MEG-XL matches supervised performance with a fraction of the data (e.g. 1hr vs 50hrs) and outperforms brain foundation models. We find that models pre-trained with longer contexts learn representations that transfer better to word decoding. Our results indicate that long-context pre-training helps exploit extended neural context that other methods unnecessarily discard.",
     featured: true
@@ -112,6 +121,9 @@ const publications: Publication[] = [
     venue: "ICML 2025 Workshop on Generative AI and Biology",
     year: 2025,
     arxiv: "2505.13446",
+    links: [
+      { label: "Code", href: "https://github.com/neural-processing-lab/unlocking-b2t" }
+    ],
     description: "Advances in non-invasive brain-to-text technology with LLM-based rescoring and predictive in-filling approaches.",
     abstract: "The paper discusses advances in non-invasive brain-to-text (B2T) technology, highlighting three key contributions: extending word-classification models with LLM-based rescoring, introducing a predictive in-filling approach for out-of-vocabulary words, and demonstrating scalability of non-invasive B2T models across datasets. These developments represent significant progress toward practical brain-computer interfaces for communication.",
     featured: true
@@ -122,6 +134,9 @@ const publications: Publication[] = [
     venue: "ICML 2025",
     year: 2025,
     arxiv: "2406.04328",
+    links: [
+      { label: "Code", href: "https://github.com/neural-processing-lab/the-brains-bitter-lesson" }
+    ],
     description: "Breakthrough in scaling speech decoding models across both subjects and datasets using self-supervised learning techniques.",
     abstract: "The past few years have seen remarkable progress in the decoding of speech from brain activity, primarily driven by large single-subject datasets. However, due to individual variation in brain anatomy and physiology, these models typically do not generalize well across subjects. Here we show that self-supervised learning can be used to create speech decoding models that generalize across subjects and datasets. Using a combination of contrastive learning and masked language modeling on neural recordings from multiple subjects, we demonstrate significant improvements in cross-subject decoding performance. These advances unlock the potential for scaling speech decoding models beyond the current frontier.",
     featured: true
@@ -291,6 +306,27 @@ export default function Publications() {
                     arXiv
                   </a>
                 )}
+                {pub.links?.map((link) => (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="publication-link"
+                    style={{
+                      fontSize: 'clamp(10px, 2vw, 12px)',
+                      color: '#000',
+                      textDecoration: 'none',
+                      border: '1px solid #000',
+                      padding: 'clamp(0.3rem, 1vw, 0.4rem) clamp(0.6rem, 1.5vw, 0.8rem)',
+                      transition: 'all 0.2s ease',
+                      letterSpacing: '0.02em',
+                      textTransform: 'uppercase'
+                    }}
+                  >
+                    {link.label}
+                  </a>
+                ))}
               </div>
               
               {pub.description && (
